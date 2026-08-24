@@ -116,9 +116,3 @@ class QuizScreen extends StatelessWidget {
     );
   }
 }
-
-// Fallback color configurations for compile targets
-extension on Colors {
-  static const orangeDeep = Colors.orange;
-  static const amberValues = Colors.amber;
-}
