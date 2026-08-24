@@ -1,0 +1,11 @@
+[
+  {"infinitive": "Do", "pastSimple": "Did", "pastParticiple": "Done", "gerund": "Doing", "isRegular": false},
+  {"infinitive": "Go", "pastSimple": "Went", "pastParticiple": "Gone", "gerund": "Going", "isRegular": false},
+  {"infinitive": "Eat", "pastSimple": "Ate", "pastParticiple": "Eaten", "gerund": "Eating", "isRegular": false},
+  {"infinitive": "See", "pastSimple": "Saw", "pastParticiple": "Seen", "gerund": "Seeing", "isRegular": false},
+  {"infinitive": "Take", "pastSimple": "Took", "pastParticiple": "Taken", "gerund": "Taking", "isRegular": false},
+  {"infinitive": "Write", "pastSimple": "Wrote", "pastParticiple": "Written", "gerund": "Writing", "isRegular": false},
+  {"infinitive": "Walk", "pastSimple": "Walked", "pastParticiple": "Walked", "gerund": "Walking", "isRegular": true},
+  {"infinitive": "Talk", "pastSimple": "Talked", "pastParticiple": "Talked", "gerund": "Talking", "isRegular": true},
+  {"infinitive": "Play", "pastSimple": "Played", "pastParticiple": "Played", "gerund": "Playing", "isRegular": true}
+]
