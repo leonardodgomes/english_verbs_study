@@ -13,7 +13,7 @@ class VocabScreen extends StatefulWidget {
 class _VocabScreenState extends State<VocabScreen> {
   final TextEditingController _controller = TextEditingController();
 
-  IconData _getIconData(String iconName) {
+    IconData _getIconData(String iconName) {
     switch (iconName) {
       case 'apple': return Icons.apple;
       case 'directions_car': return Icons.directions_car;
@@ -21,9 +21,32 @@ class _VocabScreenState extends State<VocabScreen> {
       case 'home': return Icons.home;
       case 'book': return Icons.book;
       case 'pedal_bike': return Icons.pedal_bike;
+      case 'flight': return Icons.flight;
+      case 'train': return Icons.train;
+      case 'computer': return Icons.computer;
+      case 'phone_android': return Icons.phone_android;
+      case 'key': return Icons.key;
+      case 'nature': return Icons.nature;
+      case 'wb_sunny': return Icons.wb_sunny;
+      case 'dark_mode': return Icons.dark_mode;
+      case 'photo_camera': return Icons.photo_camera;
+      case 'watch_later': return Icons.watch_later;
+      case 'cake': return Icons.cake;
+      case 'coffee': return Icons.coffee;
+      case 'water_drop': return Icons.water_drop;
+      case 'chair': return Icons.chair;
+      case 'bed': return Icons.bed;
+      case 'school': return Icons.school;
+      case 'store': return Icons.store;
+      case 'music_note': return Icons.music_note;
+      case 'favorite': return Icons.favorite;
+      case 'star': return Icons.star;
+      case 'cloud': return Icons.cloud;
+      case 'umbrella': return Icons.umbrella;
       default: return Icons.help_outline;
     }
   }
+
 
   void _submit() {
     if (_controller.text.isEmpty) return;
