@@ -13,7 +13,7 @@ class VocabScreen extends StatefulWidget {
 class _VocabScreenState extends State<VocabScreen> {
   final TextEditingController _controller = TextEditingController();
 
-    IconData _getIconData(String iconName) {
+  IconData _getIconData(String iconName) {
     switch (iconName) {
       case 'apple': return Icons.apple;
       case 'directions_car': return Icons.directions_car;
@@ -46,7 +46,6 @@ class _VocabScreenState extends State<VocabScreen> {
       default: return Icons.help_outline;
     }
   }
-
 
   void _submit() {
     if (_controller.text.isEmpty) return;
@@ -83,19 +82,45 @@ class _VocabScreenState extends State<VocabScreen> {
                     Text('🏆 Best: ${state.highestScore}', style: const TextStyle(fontSize: 18, color: Colors.amber, fontWeight: FontWeight.bold)),
                   ],
                 ),
-                const SizedBox(height: 50),
+                const SizedBox(height: 40),
                 Icon(
                   _getIconData(item.iconName),
                   size: 100,
                   color: Theme.of(context).colorScheme.primary,
                 ),
-                const SizedBox(height: 30),
+                const SizedBox(height: 20),
                 Text(
                   item.hint,
                   textAlign: TextAlign.center,
                   style: const TextStyle(fontSize: 20, fontStyle: FontStyle.italic),
                 ),
-                const SizedBox(height: 40),
+                const SizedBox(height: 30),
+
+                // NEW: Dynamic Correction Banner Feedback Card
+                if (state.revealCorrection != null) ...[
+                  Card(
+                    color: Colors.red.shade50,
+                    elevation: 0,
+                    shape: RoundedRectangleBorder(
+                      side: BorderSide(color: Colors.red.shade200),
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.all(12.0),
+                      child: Text(
+                        'Oops! The correct word was: ${state.revealCorrection}',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          color: Colors.red.shade900,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 16,
+                        ),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 20),
+                ],
+
                 TextField(
                   controller: _controller,
                   decoration: const InputDecoration(

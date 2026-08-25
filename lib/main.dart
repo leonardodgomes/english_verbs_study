@@ -17,12 +17,10 @@ class MyApp extends StatelessWidget {
   Future<Map<String, dynamic>> _initAppData() async {
     final SharedPreferences prefs = await SharedPreferences.getInstance();
     
-    // 1. Load the Verbs Game Data
     final String verbsResponse = await rootBundle.loadString('assets/verbs.json');
     final List<dynamic> verbsData = json.decode(verbsResponse);
     final List<Verb> loadedVerbs = verbsData.map((jsonItem) => Verb.fromJson(jsonItem)).toList();
     
-    // 2. Load the Vocabulary Game Data
     final String vocabResponse = await rootBundle.loadString('assets/vocabulary.json');
     final List<dynamic> vocabData = json.decode(vocabResponse);
     final List<VocabularyItem> loadedVocab = vocabData.map((jsonItem) => VocabularyItem.fromJson(jsonItem)).toList();

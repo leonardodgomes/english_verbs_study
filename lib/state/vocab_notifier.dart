@@ -2,28 +2,32 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:audioplayers/audioplayers.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import '../data/vocab_model.dart';
 
 class VocabQuizState {
   final int score;
   final int highestScore;
   final VocabularyItem currentItem;
+  final String? revealCorrection; // New: Carries the right word if you make a typo
 
   VocabQuizState({
     required this.score,
     required this.highestScore,
     required this.currentItem,
+    this.revealCorrection,
   });
 }
 
 class VocabQuizNotifier extends ValueNotifier<VocabQuizState> {
   final List<VocabularyItem> _vocabList;
+  final SharedPreferences _prefs; // Standard storage bridge
   final AudioPlayer _audioPlayer = AudioPlayer();
 
-  VocabQuizNotifier(this._vocabList)
+  VocabQuizNotifier(this._vocabList, this._prefs)
       : super(VocabQuizState(
           score: 0,
-          highestScore: 0, // You can integrate SharedPreferences here later!
+          highestScore: _prefs.getInt('vocab_highest_streak_key') ?? 0, // Load saved vocab record
           currentItem: _vocabList[Random().nextInt(_vocabList.length)],
         ));
 
@@ -33,25 +37,31 @@ class VocabQuizNotifier extends ValueNotifier<VocabQuizState> {
 
     int newScore = value.score;
     int newHighest = value.highestScore;
+    String? correction;
 
     if (cleanInput == correctAnswer) {
       newScore += 1;
-      if (newScore > newHighest) newHighest = newScore;
+      if (newScore > newHighest) {
+        newHighest = newScore;
+        _prefs.setInt('vocab_highest_streak_key', newHighest); // Save new vocab record permanently
+      }
       _audioPlayer.play(UrlSource('https://mixkit.co'));
       HapticFeedback.lightImpact();
     } else {
-      newScore = 0; // Resets current streak on mistake
+      // Capture the exact word you missed so the UI can display it
+      correction = value.currentItem.word;
+      newScore = 0; // Reset streak run
       _audioPlayer.play(UrlSource('https://mixkit.co'));
       HapticFeedback.vibrate();
     }
 
-    // Pick a new unique random item
     final nextItem = _vocabList[Random().nextInt(_vocabList.length)];
 
     value = VocabQuizState(
       score: newScore,
       highestScore: newHighest,
       currentItem: nextItem,
+      revealCorrection: correction,
     );
   }
 }

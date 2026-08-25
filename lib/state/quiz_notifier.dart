@@ -38,6 +38,8 @@ class DynamicQuizNotifier extends ValueNotifier<DynamicQuizState> {
           currentQuestion: DynamicQuestion.generate(_pickVerbByWeight(_verbs), _verbs),
           history: [],
         ));
+  
+  SharedPreferences get prefsInstance => _prefs; 
 
   static Verb _pickVerbByWeight(List<Verb> verbs) {
     int totalWeight = verbs.fold(0, (sum, item) => sum + item.weight);

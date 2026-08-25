@@ -7,7 +7,7 @@ import 'vocab_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   final DynamicQuizNotifier quizNotifier;
-  final List<VocabularyItem> vocabularyList; // New separate data list!
+  final List<VocabularyItem> vocabularyList;
 
   const HomeScreen({
     super.key, 
@@ -42,9 +42,13 @@ class HomeScreen extends StatelessWidget {
                   textAlign: TextAlign.center,
                   style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
                 ),
+                const SizedBox(height: 8),
+                Text(
+                  'Verbs Top Streak: 🏆 ${state.highestStreak}',
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(fontSize: 16, color: Colors.grey),
+                ),
                 const SizedBox(height: 40),
-                
-                // GAME 1: Verbs Game Card
                 Card(
                   elevation: 2,
                   child: InkWell(
@@ -80,8 +84,6 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 16),
-                
-                // GAME 2: Vocabulary Typist Game Card
                 Card(
                   elevation: 2,
                   child: InkWell(
@@ -90,7 +92,7 @@ class HomeScreen extends StatelessWidget {
                         context,
                         MaterialPageRoute(
                           builder: (context) => VocabScreen(
-                            vocabNotifier: VocabQuizNotifier(vocabularyList), // Fed completely independently
+                            vocabNotifier: VocabQuizNotifier(vocabularyList, quizNotifier.prefsInstance),
                           ),
                         ),
                       );
