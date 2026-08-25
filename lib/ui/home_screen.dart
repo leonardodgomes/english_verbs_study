@@ -43,7 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
       builder: (context, verbState, child) {
         return Scaffold(
           appBar: AppBar(
-            title: const Text('English Study Hub'),
+            title: const Text('Leo Study Hub'),
             centerTitle: true,
             leading: IconButton(
               icon: const Icon(Icons.analytics_outlined),
