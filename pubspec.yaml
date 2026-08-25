@@ -67,3 +67,4 @@ flutter:
     # Ensure there are EXACTLY four spaces before the dash "-"
     - assets/verbs.json
     - assets/vocabulary.json
+    - assets/data_eng.json 

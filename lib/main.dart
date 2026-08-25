@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'data/verb_model.dart';
 import 'data/vocab_model.dart';
+import 'data/data_eng_model.dart';
 import 'state/quiz_notifier.dart';
 import 'ui/home_screen.dart';
 
@@ -24,10 +25,16 @@ class MyApp extends StatelessWidget {
     final String vocabResponse = await rootBundle.loadString('assets/vocabulary.json');
     final List<dynamic> vocabData = json.decode(vocabResponse);
     final List<VocabularyItem> loadedVocab = vocabData.map((jsonItem) => VocabularyItem.fromJson(jsonItem)).toList();
+
+    // Load Data Engineering Game file asset stack asynchronously
+    final String dataEngResponse = await rootBundle.loadString('assets/data_eng.json');
+    final List<dynamic> dataEngData = json.decode(dataEngResponse);
+    final List<DataEngItem> loadedDataEng = dataEngData.map((jsonItem) => DataEngItem.fromJson(jsonItem)).toList();
     
     return {
       'notifier': DynamicQuizNotifier(loadedVerbs, prefs),
-      'vocabList': loadedVocab
+      'vocabList': loadedVocab,
+      'dataEngList': loadedDataEng
     };
   }
 
@@ -45,6 +52,7 @@ class MyApp extends StatelessWidget {
 
         final DynamicQuizNotifier quizNotifier = snapshot.data!['notifier'];
         final List<VocabularyItem> vocabList = snapshot.data!['vocabList'];
+        final List<DataEngItem> dataEngList = snapshot.data!['dataEngList'];
 
         return ValueListenableBuilder<DynamicQuizState>(
           valueListenable: quizNotifier,
@@ -60,7 +68,11 @@ class MyApp extends StatelessWidget {
                 colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo, brightness: Brightness.dark),
                 useMaterial3: true,
               ),
-              home: HomeScreen(quizNotifier: quizNotifier, vocabularyList: vocabList),
+              home: HomeScreen(
+                quizNotifier: quizNotifier, 
+                vocabularyList: vocabList,
+                dataEngList: dataEngList, // Fed cleanly down the line
+              ),
             );
           },
         );

@@ -1,0 +1,136 @@
+[
+  {
+    "scenario": "You need to ingest, buffer, and process millions of real-time event streams per second from mobile apps with low latency and high throughput. Which tool is designed for this ingest tier?",
+    "correctAnswer": "Apache Kafka",
+    "distractors": ["Apache Airflow", "Snowflake", "dbt"],
+    "explanation": "Apache Kafka acts as a highly distributed messaging queue and event streaming platform capable of handling real-time data ingestion at massive scale using a publish-subscribe architecture."
+  },
+  {
+    "scenario": "You want to automate, schedule, and orchestrate complex data workflows, managing task dependencies and monitoring pipeline execution graph states.",
+    "correctAnswer": "Apache Airflow",
+    "distractors": ["Apache Spark", "Redis", "Docker"],
+    "explanation": "Apache Airflow uses Directed Acyclic Graphs (DAGs) to programmatically author, schedule, and monitor workflows, making it the industry standard for data orchestration."
+  },
+  {
+    "scenario": "You need to transform massive volumes of unstructured or semi-structured log data stored in a data lakehouse using distributed in-memory computing cluster processing.",
+    "correctAnswer": "Apache Spark",
+    "distractors": ["PostgreSQL", "Apache Kafka", "Tableau"],
+    "explanation": "Apache Spark is an open-source distributed processing framework that performs in-memory computations, making it exponentially faster than disk-based MapReduce jobs for big data transformations."
+  },
+  {
+    "scenario": "A core pipeline architecture design property that guarantees a processing script or operation can run multiple times safely without producing duplicate rows or mutating results beyond the initial run.",
+    "correctAnswer": "Idempotency",
+    "distractors": ["Data Lineage", "Partitioning", "Backfilling"],
+    "explanation": "Idempotency ensures that no matter how many times a pipeline retry or backfill runs over the same partition, the final target table state remains clean and free of duplicate entries."
+  },
+  {
+    "scenario": "You need to run a historic pipeline logic over a specific past timeframe to populate data gaps or capture new structural updates into your analytics warehouse tables.",
+    "correctAnswer": "Backfill",
+    "distractors": ["Sharding", "Caching", "Streaming"],
+    "explanation": "Backfilling is the process of executing a pipeline on historical dates, usually triggered after a business logic update, a schema change, or to recover missing data records."
+  },
+  {
+    "scenario": "Which storage format is columnar, highly compressed, supports schema evolution, and is heavily optimized for large-scale analytical query patterns in data lakes?",
+    "correctAnswer": "Parquet",
+    "distractors": ["JSON", "CSV", "XML"],
+    "explanation": "Apache Parquet stores data column-by-column rather than row-by-row, which allows for extreme binary compression and file pruning during heavy analytical read operations."
+  },
+  {
+    "scenario": "You are designing an ETL layer where data transforms happen directly inside the scalable processing compute cluster of the cloud data warehouse rather than an external execution server.",
+    "correctAnswer": "ELT Pattern",
+    "distractors": ["Streaming Ingestion", "Lambda Architecture", "Symmetric Replication"],
+    "explanation": "The ELT (Extract-Load-Transform) pattern leverages the massive parallel processing compute capabilities of modern cloud warehouses (like Snowflake or BigQuery) to transform data after it has landed."
+  },
+  {
+    "scenario": "You need to store analytical aggregates, metrics, and business reports in a system optimized for complex ad-hoc queries, heavy reads, and fast aggregations. What layer fits this requirement?",
+    "correctAnswer": "Data Warehouse",
+    "distractors": ["Transactional Database (OLTP)", "NoSQL Cache", "Graph Database"],
+    "explanation": "Data Warehouses are built for OLAP (Online Analytical Processing) workloads, utilizing columnar storage and massive scaling to quickly serve data analytics and business intelligence tools."
+  },
+  {
+    "scenario": "You need to scale out an analytical database across multiple physical machines by horizontally slicing a large table into smaller, distinct chunks based on a specific attribute value.",
+    "correctAnswer": "Sharding",
+    "distractors": ["Indexing", "Normalization", "Virtualization"],
+    "explanation": "Sharding physically distributes database rows across distinct cluster nodes based on a shard key, enabling horizontal storage scaling and computational distribution."
+  },
+  {
+    "scenario": "Which pipeline architecture processing pattern combines both batch and real-time processing streams into a single unified continuous stream engine layer?",
+    "correctAnswer": "Kappa Architecture",
+    "distractors": ["Lambda Architecture", "Monolithic Processing", "Batch-Only Design"],
+    "explanation": "Kappa Architecture processes all data through a single stream processing framework (like Apache Flink), eliminating the dual-code maintenance trap of Lambda architectures."
+  },
+  {
+    "scenario": "What metadata tracking property enables a data engineer to track the end-to-end journey, source origins, and structural transformation lifecycle of a specific dataset element?",
+    "correctAnswer": "Data Lineage",
+    "distractors": ["Schema Registry", "Data Profiling", "Anonymization"],
+    "explanation": "Data Lineage provides auditability and transparency by mapping the data flow graphs, helping teams debug pipeline breakages and evaluate data quality roots."
+  },
+  {
+    "scenario": "You want to design a modern enterprise architecture that treats data as an individual, decentralized domain-owned product rather than a centralized corporate lake asset.",
+    "correctAnswer": "Data Mesh",
+    "distractors": ["Data Fabric", "Kimball Hub-and-Spoke", "Data Silo Matrix"],
+    "explanation": "Data Mesh is a decentralized sociotechnical architectural paradigm that shifts ownership to domains, promoting data-as-a-product and federated computational governance."
+  },
+  {
+    "scenario": "Which slowly changing dimension (SCD) type pattern completely overwrites historical row records with fresh incoming data, preserving no old version history?",
+    "correctAnswer": "SCD Type 1",
+    "distractors": ["SCD Type 2", "SCD Type 0", "SCD Type 4"],
+    "explanation": "SCD Type 1 structures maintain only the current active state by overwriting data cells, making historical comparison or point-in-time rollbacks impossible over those columns."
+  },
+  {
+    "scenario": "You are optimizing a massive distributed query join operation by sending a small dimension table to all cluster nodes, avoiding heavy data shuffling across the network.",
+    "correctAnswer": "Broadcast Join",
+    "distractors": ["Sort-Merge Join", "Shuffle Hash Join", "Cartesian Product Join"],
+    "explanation": "A Broadcast (or Map-side) Join replicates the entire small dataset across all worker engines, eliminating expensive data movement during large-to-small table operations."
+  },
+  {
+    "scenario": "Which cloud storage layer is ideal for archiving raw, completely raw, and unstructured data format pools before any schema constraints are declared?",
+    "correctAnswer": "Object Storage",
+    "distractors": ["Relational Block Storage", "Memory Key-Value Store", "Time-Series Ledger"],
+    "explanation": "Cloud Object Storage (like AWS S3 or Google Cloud Storage) provides cheap, highly durable, and schema-free file dumping grounds optimized for big data raw ingestion."
+  },
+  {
+    "scenario": "You need to stream real-time mutations from an operational database (OLTP) to an analytical lakehouse cluster as soon as insert, update, or delete commands commit. Which technique enables this?",
+    "correctAnswer": "Change Data Capture (CDC)",
+    "distractors": ["Cron-based Batching", "SCD Type 2 Modeling", "Pre-computed Views"],
+    "explanation": "Change Data Capture (CDC) reads the database transaction logs directly to capture low-level adjustments continuously without overloading the operational database compute engine."
+  },
+  {
+    "scenario": "You are implementing automated data quality assertions (such as verifying a column has no nulls or falls within specific limits) into a dbt/Python data pipeline stage. What is this concept?",
+    "correctAnswer": "Data Quality Testing",
+    "distractors": ["Regression Verification", "Performance Profiling", "Data Obfuscation"],
+    "explanation": "Data Quality Testing (using tools like Great Expectations, Soda, or dbt tests) guarantees pipeline accuracy by stopping executions if source mutations break strict predefined structural assertions."
+  },
+  {
+    "scenario": "You are architecting an open table format data lakehouse that supports full ACID transactions, time-travel point-in-time reads, data skipping, and concurrent file rewrites. Which technology fits best?",
+    "correctAnswer": "Apache Iceberg",
+    "distractors": ["Plain Apache Hive", "HBase Key-Value Index", "Amazon Athena Engine"],
+    "explanation": "Modern open table storage designs like Apache Iceberg (and Delta Lake) use structural manifest snapshots to bring database features like ACID properties, concurrency, and time travel directly to object stores."
+  },
+  {
+    "scenario": "You need to scale compute resources independently from storage media limits in your cloud data infrastructure design to save operational budget during dormant cluster hours. What architecture trait allows this?",
+    "correctAnswer": "Decoupled Compute and Storage",
+    "distractors": ["HDFS Shared-Nothing Structure", "Monolithic Clustering Pattern", "RAID Mirror Matrix Architecture"],
+    "explanation": "Decoupling compute from storage allows cloud systems like Snowflake or BigQuery to store massive petabyte datasets cheaply while automatically spinning down compute engines when no queries run."
+  },
+  {
+    "scenario": "Which specific data modeling method divides a core enterprise business domain architecture cleanly into Hubs (business keys), Links (relationships), and Satellites (contextual history)?",
+    "correctAnswer": "Data Vault 2.0",
+    "distractors": ["Kimball Star Schema", "Inmon 3NF Normalization", "One Big Table (OBT) Pattern"],
+    "explanation": "Data Vault 2.0 separates structural identity (Hubs), connections (Links), and historical contexts (Satellites), creating highly resilient, scalable, and audit-ready agile lakehouse architectures."
+  },
+  {
+    "scenario": "Your team wants to deploy structural data schema definitions, data warehouse permissions, and storage layouts programmatically using declaration blocks rather than manual UI dashboards. What is this practice?",
+    "correctAnswer": "Infrastructure as Code (IaC)",
+    "distractors": ["Semantic Web Modeling", "Reverse ETL Execution", "Dynamic View Materialization"],
+    "explanation": "Infrastructure as Code (IaC) tools like Terraform or CloudFormation translate cloud components into text definition blocks, enabling structured version control and automated multi-environment deployment."
+  },
+  {"scenario": "You are optimizing an analytical data infrastructure processing job by partitioning files across a target date parameter folder path. What major trap happens if a pipeline creates thousands of tiny 10KB files inside partitions?","correctAnswer": "Small File Problem","distractors": ["Schema Out-Of-Bounds Drift", "Thread Deadlock Condition", "Buffer In-Memory Overflow Exception"],"explanation": "The Small File Problem causes analytical file systems and catalog index tables to bottleneck because computing query tasks spends more time opening file headers across storage networks than reading actual bits."},
+  {"scenario": "You need to feed aggregate machine learning scores or user segmentations computed inside a cloud data warehouse back out into transactional systems like Salesforce or Google Ads. What pattern is this?","correctAnswer": "Reverse ETL","distractors": ["Database Sharding Route", "Incremental Extract Ingestion", "Lambda Speed Layering"],"explanation": "Reverse ETL utilities (like Hightouch or Census) operationalize analytical data by pumping metrics from reporting warehouses back out to consumer interfaces and operational software."},
+  {"scenario": "You are designing a database constraint routine that safely records a historical ledger record by retaining old rows and appending a fresh row tracking an active true flag and end date context. What dimension pattern is this?","correctAnswer": "SCD Type 2","distractors": ["SCD Type 1", "SCD Type 3", "SCD Type 0"],"explanation": "Slowly Changing Dimension (SCD) Type 2 tracks complete historical accuracy by adding new rows with timestamps and state flags for every single attribute shift, creating point-in-time timeline tracks."},
+  {"scenario": "Which streaming architecture mechanism ensures that a consumer engine tracks data processing states accurately even if network connections drop or a node failure restarts a stream operator?","correctAnswer": "Checkpointing","distractors": ["Thread Compaction", "Network Mirroring", "Schema Evolution Registry"],"explanation": "Checkpointing saves the current cursor offset or state boundary snapshot periodically to secure durable data storage, preventing processing engines from duplicating or skipping records upon recovery."},
+  {"scenario": "You are managing data drift issues where microservice source systems add new fields to output JSON event rows without breaking downstream schema pipelines. What data mesh pattern handles this validation layer?","correctAnswer": "Schema Registry","distractors": ["Semantic Orchestrator", "Distributed Ledger Sync", "In-Memory Serialization Buffer"],"explanation": "A Schema Registry (like Confluent Schema Registry) acts as a centralized gatekeeper checking data payloads against registered blueprints, allowing safely managed schema evolution."},
+  {"scenario": "Which distributed cluster management property tracks nodes, manages coordination tasks, settles leader elections, and synchronizes state layouts across systems like Apache Kafka or Hadoop engines?","correctAnswer": "Apache ZooKeeper / KRaft","distractors": ["Apache Airflow Webserver", "PostgreSQL System Catalog", "Redis Cache Indexer"],"explanation": "Coordination layers like ZooKeeper or modern KRaft state structures synchronize metadata layouts and manage cluster consensus across nodes to guarantee system consistency."},
+  {"scenario": "You need to reduce query latency for heavy business report models by computing and caching complex multi-table SQL query tables physically on disk storage instead of referencing live virtual views.","correctAnswer": "Materialized Views","distractors": ["Ephemeral CTE Queries", "Volatile Temp Schemas", "Unindexed Table Joins"],"explanation": "Materialized Views execute complex queries beforehand and write data results physically to disk, sacrificing space and storage sync speeds to serve dashboards with lightning-fast reads."},
+  {"scenario": "What software architecture automation rule blocks broken pipeline code from merging into production repositories by running automated code formatting, linting, and data quality check suites on pull requests?","correctAnswer": "CI/CD Pipeline","distractors": ["Semantic Partition Sync", "Active Hot Reload Router", "Multi-Tenant Sandbox Rule"],"explanation": "Continuous Integration and Continuous Deployment (CI/CD) pipelines execute automatic checks when engineers push revisions, maintaining production repository health and delivery safety."},
+  {"scenario": "You are structuring a Kimball-style business warehouse design matrix. What core table is optimized for metrics, quantities, numerical measurements, and relies on foreign key links to dimensions?","correctAnswer": "Fact Table","distractors": ["Satellite Table", "Dimension Table", "Bridge Schema Index"],"explanation": "Fact Tables hold numerical observations, aggregations, metrics, and situational logs of a business operation, connected directly to context-rich metadata Dimension Tables."}]
