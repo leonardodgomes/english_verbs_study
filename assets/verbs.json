@@ -1,32 +1,2648 @@
 [
-  {"infinitive": "Do", "pastSimple": "Did", "pastParticiple": "Done", "gerund": "Doing", "isRegular": false},
-  {"infinitive": "Go", "pastSimple": "Went", "pastParticiple": "Gone", "gerund": "Going", "isRegular": false},
-  {"infinitive": "Eat", "pastSimple": "Ate", "pastParticiple": "Eaten", "gerund": "Eating", "isRegular": false},
-  {"infinitive": "See", "pastSimple": "Saw", "pastParticiple": "Seen", "gerund": "Seeing", "isRegular": false},
-  {"infinitive": "Take", "pastSimple": "Took", "pastParticiple": "Taken", "gerund": "Taking", "isRegular": false},
-  {"infinitive": "Write", "pastSimple": "Wrote", "pastParticiple": "Written", "gerund": "Writing", "isRegular": false},
-  {"infinitive": "Walk", "pastSimple": "Walked", "pastParticiple": "Walked", "gerund": "Walking", "isRegular": true},
-  {"infinitive": "Talk", "pastSimple": "Talked", "pastParticiple": "Talked", "gerund": "Talking", "isRegular": true},
-  {"infinitive": "Play", "pastSimple": "Played", "pastParticiple": "Played", "gerund": "Playing", "isRegular": true},
-  {"infinitive": "Be", "pastSimple": "Was", "pastParticiple": "Been", "gerund": "Being", "isRegular": false},
-  {"infinitive": "Have", "pastSimple": "Had", "pastParticiple": "Had", "gerund": "Having", "isRegular": false},
-  {"infinitive": "Make", "pastSimple": "Made", "pastParticiple": "Made", "gerund": "Making", "isRegular": false},
-  {"infinitive": "Say", "pastSimple": "Said", "pastParticiple": "Said", "gerund": "Saying", "isRegular": false},
-  {"infinitive": "Get", "pastSimple": "Got", "pastParticiple": "Gotten", "gerund": "Getting", "isRegular": false},
-  {"infinitive": "Know", "pastSimple": "Knew", "pastParticiple": "Known", "gerund": "Knowing", "isRegular": false},
-  {"infinitive": "Think", "pastSimple": "Thought", "pastParticiple": "Thought", "gerund": "Thinking", "isRegular": false},
-  {"infinitive": "Come", "pastSimple": "Came", "pastParticiple": "Come", "gerund": "Coming", "isRegular": false},
-  {"infinitive": "Give", "pastSimple": "Gave", "pastParticiple": "Given", "gerund": "Giving", "isRegular": false},
-  {"infinitive": "Find", "pastSimple": "Found", "pastParticiple": "Found", "gerund": "Finding", "isRegular": false},
-  {"infinitive": "Tell", "pastSimple": "Told", "pastParticiple": "Told", "gerund": "Telling", "isRegular": false},
-  {"infinitive": "Work", "pastSimple": "Worked", "pastParticiple": "Worked", "gerund": "Working", "isRegular": true},
-  {"infinitive": "Call", "pastSimple": "Called", "pastParticiple": "Called", "gerund": "Calling", "isRegular": true},
-  {"infinitive": "Try", "pastSimple": "Tried", "pastParticiple": "Tried", "gerund": "Trying", "isRegular": true},
-  {"infinitive": "Ask", "pastSimple": "Asked", "pastParticiple": "Asked", "gerund": "Asking", "isRegular": true},
-  {"infinitive": "Need", "pastSimple": "Needed", "pastParticiple": "Needed", "gerund": "Needing", "isRegular": true},
-  {"infinitive": "Feel", "pastSimple": "Felt", "pastParticiple": "Felt", "gerund": "Feeling", "isRegular": false},
-  {"infinitive": "Leave", "pastSimple": "Left", "pastParticiple": "Left", "gerund": "Leaving", "isRegular": false},
-  {"infinitive": "Run", "pastSimple": "Ran", "pastParticiple": "Run", "gerund": "Running", "isRegular": false},
-  {"infinitive": "Keep", "pastSimple": "Kept", "pastParticiple": "Kept", "gerund": "Keeping", "isRegular": false},
-  {"infinitive": "Begin", "pastSimple": "Began", "pastParticiple": "Begun", "gerund": "Beginning", "isRegular": false}
+  {
+    "infinitive": "Do",
+    "pastSimple": "Did",
+    "pastParticiple": "Done",
+    "gerund": "Doing",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Go",
+    "pastSimple": "Went",
+    "pastParticiple": "Gone",
+    "gerund": "Going",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Eat",
+    "pastSimple": "Ate",
+    "pastParticiple": "Eaten",
+    "gerund": "Eating",
+    "isRegular": false
+  },
+  {
+    "infinitive": "See",
+    "pastSimple": "Saw",
+    "pastParticiple": "Seen",
+    "gerund": "Seeing",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Take",
+    "pastSimple": "Took",
+    "pastParticiple": "Taken",
+    "gerund": "Taking",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Write",
+    "pastSimple": "Wrote",
+    "pastParticiple": "Written",
+    "gerund": "Writing",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Walk",
+    "pastSimple": "Walked",
+    "pastParticiple": "Walked",
+    "gerund": "Walking",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Talk",
+    "pastSimple": "Talked",
+    "pastParticiple": "Talked",
+    "gerund": "Talking",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Play",
+    "pastSimple": "Played",
+    "pastParticiple": "Played",
+    "gerund": "Playing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Be",
+    "pastSimple": "Was",
+    "pastParticiple": "Been",
+    "gerund": "Being",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Have",
+    "pastSimple": "Had",
+    "pastParticiple": "Had",
+    "gerund": "Having",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Make",
+    "pastSimple": "Made",
+    "pastParticiple": "Made",
+    "gerund": "Making",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Say",
+    "pastSimple": "Said",
+    "pastParticiple": "Said",
+    "gerund": "Saying",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Get",
+    "pastSimple": "Got",
+    "pastParticiple": "Gotten",
+    "gerund": "Getting",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Know",
+    "pastSimple": "Knew",
+    "pastParticiple": "Known",
+    "gerund": "Knowing",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Think",
+    "pastSimple": "Thought",
+    "pastParticiple": "Thought",
+    "gerund": "Thinking",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Come",
+    "pastSimple": "Came",
+    "pastParticiple": "Come",
+    "gerund": "Coming",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Give",
+    "pastSimple": "Gave",
+    "pastParticiple": "Given",
+    "gerund": "Giving",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Find",
+    "pastSimple": "Found",
+    "pastParticiple": "Found",
+    "gerund": "Finding",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Tell",
+    "pastSimple": "Told",
+    "pastParticiple": "Told",
+    "gerund": "Telling",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Work",
+    "pastSimple": "Worked",
+    "pastParticiple": "Worked",
+    "gerund": "Working",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Call",
+    "pastSimple": "Called",
+    "pastParticiple": "Called",
+    "gerund": "Calling",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Try",
+    "pastSimple": "Tried",
+    "pastParticiple": "Tried",
+    "gerund": "Trying",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Ask",
+    "pastSimple": "Asked",
+    "pastParticiple": "Asked",
+    "gerund": "Asking",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Need",
+    "pastSimple": "Needed",
+    "pastParticiple": "Needed",
+    "gerund": "Needing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Feel",
+    "pastSimple": "Felt",
+    "pastParticiple": "Felt",
+    "gerund": "Feeling",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Leave",
+    "pastSimple": "Left",
+    "pastParticiple": "Left",
+    "gerund": "Leaving",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Run",
+    "pastSimple": "Ran",
+    "pastParticiple": "Run",
+    "gerund": "Running",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Keep",
+    "pastSimple": "Kept",
+    "pastParticiple": "Kept",
+    "gerund": "Keeping",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Begin",
+    "pastSimple": "Began",
+    "pastParticiple": "Begun",
+    "gerund": "Beginning",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Become",
+    "pastSimple": "Became",
+    "pastParticiple": "Become",
+    "gerund": "Becoming",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Bite",
+    "pastSimple": "Bit",
+    "pastParticiple": "Bitten",
+    "gerund": "Biting",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Blow",
+    "pastSimple": "Blew",
+    "pastParticiple": "Blown",
+    "gerund": "Blowing",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Break",
+    "pastSimple": "Broke",
+    "pastParticiple": "Broken",
+    "gerund": "Breaking",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Bring",
+    "pastSimple": "Brought",
+    "pastParticiple": "Brought",
+    "gerund": "Bringing",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Build",
+    "pastSimple": "Built",
+    "pastParticiple": "Built",
+    "gerund": "Building",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Burn",
+    "pastSimple": "Burnt",
+    "pastParticiple": "Burnt",
+    "gerund": "Burning",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Buy",
+    "pastSimple": "Bought",
+    "pastParticiple": "Bought",
+    "gerund": "Buying",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Catch",
+    "pastSimple": "Caught",
+    "pastParticiple": "Caught",
+    "gerund": "Catching",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Choose",
+    "pastSimple": "Chose",
+    "pastParticiple": "Chosen",
+    "gerund": "Choosing",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Cost",
+    "pastSimple": "Cost",
+    "pastParticiple": "Cost",
+    "gerund": "Costing",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Cut",
+    "pastSimple": "Cut",
+    "pastParticiple": "Cut",
+    "gerund": "Cutting",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Dig",
+    "pastSimple": "Dug",
+    "pastParticiple": "Dug",
+    "gerund": "Digging",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Draw",
+    "pastSimple": "Drew",
+    "pastParticiple": "Drawn",
+    "gerund": "Drawing",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Dream",
+    "pastSimple": "Dreamt",
+    "pastParticiple": "Dreamt",
+    "gerund": "Dreaming",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Drink",
+    "pastSimple": "Drank",
+    "pastParticiple": "Drunk",
+    "gerund": "Drinking",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Drive",
+    "pastSimple": "Drove",
+    "pastParticiple": "Driven",
+    "gerund": "Driving",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Fall",
+    "pastSimple": "Fell",
+    "pastParticiple": "Fallen",
+    "gerund": "Falling",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Feed",
+    "pastSimple": "Fed",
+    "pastParticiple": "Fed",
+    "gerund": "Feeding",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Fight",
+    "pastSimple": "Fought",
+    "pastParticiple": "Fought",
+    "gerund": "Fighting",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Fly",
+    "pastSimple": "Flew",
+    "pastParticiple": "Flown",
+    "gerund": "Flying",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Forget",
+    "pastSimple": "Forgot",
+    "pastParticiple": "Forgotten",
+    "gerund": "Forgetting",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Forgive",
+    "pastSimple": "Forgave",
+    "pastParticiple": "Forgiven",
+    "gerund": "Forgiving",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Freeze",
+    "pastSimple": "Froze",
+    "pastParticiple": "Frozen",
+    "gerund": "Freezing",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Grow",
+    "pastSimple": "Grew",
+    "pastParticiple": "Grown",
+    "gerund": "Growing",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Hang",
+    "pastSimple": "Hung",
+    "pastParticiple": "Hung",
+    "gerund": "Hanging",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Hear",
+    "pastSimple": "Heard",
+    "pastParticiple": "Heard",
+    "gerund": "Hearing",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Hide",
+    "pastSimple": "Hid",
+    "pastParticiple": "Hidden",
+    "gerund": "Hiding",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Hit",
+    "pastSimple": "Hit",
+    "pastParticiple": "Hit",
+    "gerund": "Hitting",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Hold",
+    "pastSimple": "Held",
+    "pastParticiple": "Held",
+    "gerund": "Holding",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Hurt",
+    "pastSimple": "Hurt",
+    "pastParticiple": "Hurt",
+    "gerund": "Hurting",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Lay",
+    "pastSimple": "Laid",
+    "pastParticiple": "Laid",
+    "gerund": "Laying",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Lead",
+    "pastSimple": "Led",
+    "pastParticiple": "Led",
+    "gerund": "Leading",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Lend",
+    "pastSimple": "Lent",
+    "pastParticiple": "Lent",
+    "gerund": "Lending",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Let",
+    "pastSimple": "Let",
+    "pastParticiple": "Let",
+    "gerund": "Letting",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Lie",
+    "pastSimple": "Lay",
+    "pastParticiple": "Lain",
+    "gerund": "Lying",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Light",
+    "pastSimple": "Lit",
+    "pastParticiple": "Lit",
+    "gerund": "Lighting",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Lose",
+    "pastSimple": "Lost",
+    "pastParticiple": "Lost",
+    "gerund": "Losing",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Mean",
+    "pastSimple": "Meant",
+    "pastParticiple": "Meant",
+    "gerund": "Meaning",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Meet",
+    "pastSimple": "Met",
+    "pastParticiple": "Met",
+    "gerund": "Meeting",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Pay",
+    "pastSimple": "Paid",
+    "pastParticiple": "Paid",
+    "gerund": "Paying",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Put",
+    "pastSimple": "Put",
+    "pastParticiple": "Put",
+    "gerund": "Putting",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Read",
+    "pastSimple": "Read",
+    "pastParticiple": "Read",
+    "gerund": "Reading",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Ride",
+    "pastSimple": "Rode",
+    "pastParticiple": "Ridden",
+    "gerund": "Riding",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Ring",
+    "pastSimple": "Rang",
+    "pastParticiple": "Rung",
+    "gerund": "Ringing",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Rise",
+    "pastSimple": "Rose",
+    "pastParticiple": "Risen",
+    "gerund": "Rising",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Sell",
+    "pastSimple": "Sold",
+    "pastParticiple": "Sold",
+    "gerund": "Selling",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Send",
+    "pastSimple": "Sent",
+    "pastParticiple": "Sent",
+    "gerund": "Sending",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Set",
+    "pastSimple": "Set",
+    "pastParticiple": "Set",
+    "gerund": "Setting",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Shake",
+    "pastSimple": "Shook",
+    "pastParticiple": "Shaken",
+    "gerund": "Shaking",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Shine",
+    "pastSimple": "Shone",
+    "pastParticiple": "Shone",
+    "gerund": "Shining",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Shoot",
+    "pastSimple": "Shot",
+    "pastParticiple": "Shot",
+    "gerund": "Shooting",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Show",
+    "pastSimple": "Showed",
+    "pastParticiple": "Shown",
+    "gerund": "Showing",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Shut",
+    "pastSimple": "Shut",
+    "pastParticiple": "Shut",
+    "gerund": "Shutting",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Sing",
+    "pastSimple": "Sang",
+    "pastParticiple": "Sung",
+    "gerund": "Singing",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Sink",
+    "pastSimple": "Sank",
+    "pastParticiple": "Sunk",
+    "gerund": "Sinking",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Sit",
+    "pastSimple": "Sat",
+    "pastParticiple": "Sat",
+    "gerund": "Sitting",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Sleep",
+    "pastSimple": "Slept",
+    "pastParticiple": "Slept",
+    "gerund": "Sleeping",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Slide",
+    "pastSimple": "Slid",
+    "pastParticiple": "Slid",
+    "gerund": "Sliding",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Speak",
+    "pastSimple": "Spoke",
+    "pastParticiple": "Spoken",
+    "gerund": "Speaking",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Spend",
+    "pastSimple": "Spent",
+    "pastParticiple": "Spent",
+    "gerund": "Spending",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Stand",
+    "pastSimple": "Stood",
+    "pastParticiple": "Stood",
+    "gerund": "Standing",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Steal",
+    "pastSimple": "Stole",
+    "pastParticiple": "Stolen",
+    "gerund": "Stealing",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Stick",
+    "pastSimple": "Stuck",
+    "pastParticiple": "Stuck",
+    "gerund": "Sticking",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Strike",
+    "pastSimple": "Struck",
+    "pastParticiple": "Struck",
+    "gerund": "Striking",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Swear",
+    "pastSimple": "Swore",
+    "pastParticiple": "Sworn",
+    "gerund": "Swearing",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Swim",
+    "pastSimple": "Swam",
+    "pastParticiple": "Swum",
+    "gerund": "Swimming",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Swing",
+    "pastSimple": "Swung",
+    "pastParticiple": "Swung",
+    "gerund": "Swinging",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Teach",
+    "pastSimple": "Taught",
+    "pastParticiple": "Taught",
+    "gerund": "Teaching",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Tear",
+    "pastSimple": "Tore",
+    "pastParticiple": "Torn",
+    "gerund": "Tearing",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Throw",
+    "pastSimple": "Threw",
+    "pastParticiple": "Thrown",
+    "gerund": "Throwing",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Understand",
+    "pastSimple": "Understood",
+    "pastParticiple": "Understood",
+    "gerund": "Understanding",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Wake",
+    "pastSimple": "Woke",
+    "pastParticiple": "Woken",
+    "gerund": "Waking",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Wear",
+    "pastSimple": "Wore",
+    "pastParticiple": "Worn",
+    "gerund": "Wearing",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Win",
+    "pastSimple": "Won",
+    "pastParticiple": "Won",
+    "gerund": "Winning",
+    "isRegular": false
+  },
+  {
+    "infinitive": "Accept",
+    "pastSimple": "Accepted",
+    "pastParticiple": "Accepted",
+    "gerund": "Accepting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Achieve",
+    "pastSimple": "Achieved",
+    "pastParticiple": "Achieved",
+    "gerund": "Achieving",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Add",
+    "pastSimple": "Added",
+    "pastParticiple": "Added",
+    "gerund": "Adding",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Admire",
+    "pastSimple": "Admired",
+    "pastParticiple": "Admired",
+    "gerund": "Admiring",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Admit",
+    "pastSimple": "Admitted",
+    "pastParticiple": "Admitted",
+    "gerund": "Admitting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Advise",
+    "pastSimple": "Advised",
+    "pastParticiple": "Advised",
+    "gerund": "Advising",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Agree",
+    "pastSimple": "Agreed",
+    "pastParticiple": "Agreed",
+    "gerund": "Agreeing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Allow",
+    "pastSimple": "Allowed",
+    "pastParticiple": "Allowed",
+    "gerund": "Allowing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Announce",
+    "pastSimple": "Announced",
+    "pastParticiple": "Announced",
+    "gerund": "Announcing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Answer",
+    "pastSimple": "Answered",
+    "pastParticiple": "Answered",
+    "gerund": "Answering",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Apologize",
+    "pastSimple": "Apologized",
+    "pastParticiple": "Apologized",
+    "gerund": "Apologizing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Appear",
+    "pastSimple": "Appeared",
+    "pastParticiple": "Appeared",
+    "gerund": "Appearing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Approve",
+    "pastSimple": "Approved",
+    "pastParticiple": "Approved",
+    "gerund": "Approving",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Argue",
+    "pastSimple": "Argued",
+    "pastParticiple": "Argued",
+    "gerund": "Arguing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Arrive",
+    "pastSimple": "Arrived",
+    "pastParticiple": "Arrived",
+    "gerund": "Arriving",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Attack",
+    "pastSimple": "Attacked",
+    "pastParticiple": "Attacked",
+    "gerund": "Attacking",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Avoid",
+    "pastSimple": "Avoided",
+    "pastParticiple": "Avoided",
+    "gerund": "Avoiding",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Bake",
+    "pastSimple": "Baked",
+    "pastParticiple": "Baked",
+    "gerund": "Baking",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Behave",
+    "pastSimple": "Behaved",
+    "pastParticiple": "Behaved",
+    "gerund": "Behaving",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Believe",
+    "pastSimple": "Believed",
+    "pastParticiple": "Believed",
+    "gerund": "Believing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Belong",
+    "pastSimple": "Belonged",
+    "pastParticiple": "Belonged",
+    "gerund": "Belonging",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Blame",
+    "pastSimple": "Blamed",
+    "pastParticiple": "Blamed",
+    "gerund": "Blaming",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Borrow",
+    "pastSimple": "Borrowed",
+    "pastParticiple": "Borrowed",
+    "gerund": "Borrowing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Bother",
+    "pastSimple": "Bothered",
+    "pastParticiple": "Bothered",
+    "gerund": "Bothering",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Bounce",
+    "pastSimple": "Bounced",
+    "pastParticiple": "Bounced",
+    "gerund": "Bouncing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Brush",
+    "pastSimple": "Brushed",
+    "pastParticiple": "Brushed",
+    "gerund": "Brushing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Calculate",
+    "pastSimple": "Calculated",
+    "pastParticiple": "Calculated",
+    "gerund": "Calculating",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Cancel",
+    "pastSimple": "Cancelled",
+    "pastParticiple": "Cancelled",
+    "gerund": "Cancelling",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Care",
+    "pastSimple": "Cared",
+    "pastParticiple": "Cared",
+    "gerund": "Caring",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Carry",
+    "pastSimple": "Carried",
+    "pastParticiple": "Carried",
+    "gerund": "Carrying",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Cause",
+    "pastSimple": "Caused",
+    "pastParticiple": "Caused",
+    "gerund": "Causing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Change",
+    "pastSimple": "Changed",
+    "pastParticiple": "Changed",
+    "gerund": "Changing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Charge",
+    "pastSimple": "Charged",
+    "pastParticiple": "Charged",
+    "gerund": "Charging",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Chase",
+    "pastSimple": "Chased",
+    "pastParticiple": "Chased",
+    "gerund": "Chasing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Check",
+    "pastSimple": "Checked",
+    "pastParticiple": "Checked",
+    "gerund": "Checking",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Cheer",
+    "pastSimple": "Cheered",
+    "pastParticiple": "Cheered",
+    "gerund": "Cheering",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Clap",
+    "pastSimple": "Clapped",
+    "pastParticiple": "Clapped",
+    "gerund": "Clapping",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Clean",
+    "pastSimple": "Cleaned",
+    "pastParticiple": "Cleaned",
+    "gerund": "Cleaning",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Clear",
+    "pastSimple": "Cleared",
+    "pastParticiple": "Cleared",
+    "gerund": "Clearing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Climb",
+    "pastSimple": "Climbed",
+    "pastParticiple": "Climbed",
+    "gerund": "Climbing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Close",
+    "pastSimple": "Closed",
+    "pastParticiple": "Closed",
+    "gerund": "Closing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Collect",
+    "pastSimple": "Collected",
+    "pastParticiple": "Collected",
+    "gerund": "Collecting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Compare",
+    "pastSimple": "Compared",
+    "pastParticiple": "Compared",
+    "gerund": "Comparing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Complain",
+    "pastSimple": "Complained",
+    "pastParticiple": "Complained",
+    "gerund": "Complaining",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Complete",
+    "pastSimple": "Completed",
+    "pastParticiple": "Completed",
+    "gerund": "Completing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Concern",
+    "pastSimple": "Concerned",
+    "pastParticiple": "Concerned",
+    "gerund": "Concerning",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Confirm",
+    "pastSimple": "Confirmed",
+    "pastParticiple": "Confirmed",
+    "gerund": "Confirming",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Connect",
+    "pastSimple": "Connected",
+    "pastParticiple": "Connected",
+    "gerund": "Connecting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Consider",
+    "pastSimple": "Considered",
+    "pastParticiple": "Considered",
+    "gerund": "Considering",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Consist",
+    "pastSimple": "Consisted",
+    "pastParticiple": "Consisted",
+    "gerund": "Consisting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Contact",
+    "pastSimple": "Contacted",
+    "pastParticiple": "Contacted",
+    "gerund": "Contacting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Contain",
+    "pastSimple": "Contained",
+    "pastParticiple": "Contained",
+    "gerund": "Containing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Continue",
+    "pastSimple": "Continued",
+    "pastParticiple": "Continued",
+    "gerund": "Continuing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Control",
+    "pastSimple": "Controlled",
+    "pastParticiple": "Controlled",
+    "gerund": "Controlling",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Cook",
+    "pastSimple": "Cooked",
+    "pastParticiple": "Cooked",
+    "gerund": "Cooking",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Copy",
+    "pastSimple": "Copied",
+    "pastParticiple": "Copied",
+    "gerund": "Copying",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Correct",
+    "pastSimple": "Corrected",
+    "pastParticiple": "Corrected",
+    "gerund": "Correcting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Count",
+    "pastSimple": "Counted",
+    "pastParticiple": "Counted",
+    "gerund": "Counting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Cover",
+    "pastSimple": "Covered",
+    "pastParticiple": "Covered",
+    "gerund": "Covering",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Create",
+    "pastSimple": "Created",
+    "pastParticiple": "Created",
+    "gerund": "Creating",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Cross",
+    "pastSimple": "Crossed",
+    "pastParticiple": "Crossed",
+    "gerund": "Crossing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Cry",
+    "pastSimple": "Cried",
+    "pastParticiple": "Cried",
+    "gerund": "Crying",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Damage",
+    "pastSimple": "Damaged",
+    "pastParticiple": "Damaged",
+    "gerund": "Damaging",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Dance",
+    "pastSimple": "Danced",
+    "pastParticiple": "Danced",
+    "gerund": "Dancing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Decide",
+    "pastSimple": "Decided",
+    "pastParticiple": "Decided",
+    "gerund": "Deciding",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Deliver",
+    "pastSimple": "Delivered",
+    "pastParticiple": "Delivered",
+    "gerund": "Delivering",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Depend",
+    "pastSimple": "Depended",
+    "pastParticiple": "Depended",
+    "gerund": "Depending",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Describe",
+    "pastSimple": "Described",
+    "pastParticiple": "Described",
+    "gerund": "Describing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Design",
+    "pastSimple": "Designed",
+    "pastParticiple": "Designed",
+    "gerund": "Designing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Destroy",
+    "pastSimple": "Destroyed",
+    "pastParticiple": "Destroyed",
+    "gerund": "Destroying",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Develop",
+    "pastSimple": "Developed",
+    "pastParticiple": "Developed",
+    "gerund": "Developing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Die",
+    "pastSimple": "Died",
+    "pastParticiple": "Died",
+    "gerund": "Dying",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Disagree",
+    "pastSimple": "Disagreed",
+    "pastParticiple": "Disagreed",
+    "gerund": "Disagreeing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Discover",
+    "pastSimple": "Discovered",
+    "pastParticiple": "Discovered",
+    "gerund": "Discovering",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Discuss",
+    "pastSimple": "Discussed",
+    "pastParticiple": "Discussed",
+    "gerund": "Discussing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Divide",
+    "pastSimple": "Divided",
+    "pastParticiple": "Divided",
+    "gerund": "Dividing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Double",
+    "pastSimple": "Doubled",
+    "pastParticiple": "Doubled",
+    "gerund": "Doubling",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Doubt",
+    "pastSimple": "Doubted",
+    "pastParticiple": "Doubted",
+    "gerund": "Doubting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Dress",
+    "pastSimple": "Dressed",
+    "pastParticiple": "Dressed",
+    "gerund": "Dressing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Drop",
+    "pastSimple": "Dropped",
+    "pastParticiple": "Dropped",
+    "gerund": "Dropping",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Dry",
+    "pastSimple": "Dried",
+    "pastParticiple": "Dried",
+    "gerund": "Drying",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Earn",
+    "pastSimple": "Earned",
+    "pastParticiple": "Earned",
+    "gerund": "Earning",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Educate",
+    "pastSimple": "Educated",
+    "pastParticiple": "Educated",
+    "gerund": "Educating",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Emphasize",
+    "pastSimple": "Emphasized",
+    "pastParticiple": "Emphasized",
+    "gerund": "Emphasizing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Employ",
+    "pastSimple": "Employed",
+    "pastParticiple": "Employed",
+    "gerund": "Employing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Encourage",
+    "pastSimple": "Encouraged",
+    "pastParticiple": "Encouraged",
+    "gerund": "Encouraging",
+    "isRegular": true
+  },
+  {
+    "infinitive": "End",
+    "pastSimple": "Ended",
+    "pastParticiple": "Ended",
+    "gerund": "Ending",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Enjoy",
+    "pastSimple": "Enjoyed",
+    "pastParticiple": "Enjoyed",
+    "gerund": "Enjoying",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Enter",
+    "pastSimple": "Entered",
+    "pastParticiple": "Entered",
+    "gerund": "Entering",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Establish",
+    "pastSimple": "Established",
+    "pastParticiple": "Established",
+    "gerund": "Establishing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Examine",
+    "pastSimple": "Examined",
+    "pastParticiple": "Examined",
+    "gerund": "Examining",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Exist",
+    "pastSimple": "Existed",
+    "pastParticiple": "Existed",
+    "gerund": "Existing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Expand",
+    "pastSimple": "Expanded",
+    "pastParticiple": "Expanded",
+    "gerund": "Expanding",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Expect",
+    "pastSimple": "Expected",
+    "pastParticiple": "Expected",
+    "gerund": "Expecting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Explain",
+    "pastSimple": "Explained",
+    "pastParticiple": "Explained",
+    "gerund": "Explaining",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Explore",
+    "pastSimple": "Explored",
+    "pastParticiple": "Explored",
+    "gerund": "Exploring",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Extend",
+    "pastSimple": "Extended",
+    "pastParticiple": "Extended",
+    "gerund": "Extending",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Face",
+    "pastSimple": "Faced",
+    "pastParticiple": "Faced",
+    "gerund": "Facing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Fail",
+    "pastSimple": "Failed",
+    "pastParticiple": "Failed",
+    "gerund": "Failing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Fear",
+    "pastSimple": "Feared",
+    "pastParticiple": "Feared",
+    "gerund": "Fearing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Fill",
+    "pastSimple": "Filled",
+    "pastParticiple": "Filled",
+    "gerund": "Filling",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Film",
+    "pastSimple": "Filmed",
+    "pastParticiple": "Filmed",
+    "gerund": "Filming",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Finish",
+    "pastSimple": "Finished",
+    "pastParticiple": "Finished",
+    "gerund": "Finishing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Fit",
+    "pastSimple": "Fitted",
+    "pastParticiple": "Fitted",
+    "gerund": "Fitting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Fix",
+    "pastSimple": "Fixed",
+    "pastParticiple": "Fixed",
+    "gerund": "Fixing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Follow",
+    "pastSimple": "Followed",
+    "pastParticiple": "Followed",
+    "gerund": "Following",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Form",
+    "pastSimple": "Formed",
+    "pastParticiple": "Formed",
+    "gerund": "Forming",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Fry",
+    "pastSimple": "Fried",
+    "pastParticiple": "Fried",
+    "gerund": "Frying",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Gather",
+    "pastSimple": "Gathered",
+    "pastParticiple": "Gathered",
+    "gerund": "Gathering",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Greet",
+    "pastSimple": "Greeted",
+    "pastParticiple": "Greeted",
+    "gerund": "Greeting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Guess",
+    "pastSimple": "Guessed",
+    "pastParticiple": "Guessed",
+    "gerund": "Guessing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Guide",
+    "pastSimple": "Guided",
+    "pastParticiple": "Guided",
+    "gerund": "Guiding",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Happen",
+    "pastSimple": "Happened",
+    "pastParticiple": "Happened",
+    "gerund": "Happening",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Hate",
+    "pastSimple": "Hated",
+    "pastParticiple": "Hated",
+    "gerund": "Hating",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Help",
+    "pastSimple": "Helped",
+    "pastParticiple": "Helped",
+    "gerund": "Helping",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Hope",
+    "pastSimple": "Hoped",
+    "pastParticiple": "Hoped",
+    "gerund": "Hoping",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Identify",
+    "pastSimple": "Identified",
+    "pastParticiple": "Identified",
+    "gerund": "Identifying",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Ignore",
+    "pastSimple": "Ignored",
+    "pastParticiple": "Ignored",
+    "gerund": "Ignoring",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Imagine",
+    "pastSimple": "Imagined",
+    "pastParticiple": "Imagined",
+    "gerund": "Imagining",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Improve",
+    "pastSimple": "Improved",
+    "pastParticiple": "Improved",
+    "gerund": "Improving",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Include",
+    "pastSimple": "Included",
+    "pastParticiple": "Included",
+    "gerund": "Including",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Increase",
+    "pastSimple": "Increased",
+    "pastParticiple": "Increased",
+    "gerund": "Increasing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Inform",
+    "pastSimple": "Informed",
+    "pastParticiple": "Informed",
+    "gerund": "Informing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Introduce",
+    "pastSimple": "Introduced",
+    "pastParticiple": "Introduced",
+    "gerund": "Introducing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Invite",
+    "pastSimple": "Invited",
+    "pastParticiple": "Invited",
+    "gerund": "Inviting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Iron",
+    "pastSimple": "Ironed",
+    "pastParticiple": "Ironed",
+    "gerund": "Ironing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Jog",
+    "pastSimple": "Jogged",
+    "pastParticiple": "Jogged",
+    "gerund": "Jogging",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Join",
+    "pastSimple": "Joined",
+    "pastParticiple": "Joined",
+    "gerund": "Joining",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Joke",
+    "pastSimple": "Joked",
+    "pastParticiple": "Joked",
+    "gerund": "Joking",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Judge",
+    "pastSimple": "Judged",
+    "pastParticiple": "Judged",
+    "gerund": "Judging",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Jump",
+    "pastSimple": "Jumped",
+    "pastParticiple": "Jumped",
+    "gerund": "Jumping",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Justify",
+    "pastSimple": "Justified",
+    "pastParticiple": "Justified",
+    "gerund": "Justifying",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Kick",
+    "pastSimple": "Kicked",
+    "pastParticiple": "Kicked",
+    "gerund": "Kicking",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Kiss",
+    "pastSimple": "Kissed",
+    "pastParticiple": "Kissed",
+    "gerund": "Kissing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Knock",
+    "pastSimple": "Knocked",
+    "pastParticiple": "Knocked",
+    "gerund": "Knocking",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Label",
+    "pastSimple": "Labelled",
+    "pastParticiple": "Labelled",
+    "gerund": "Labelling",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Laugh",
+    "pastSimple": "Laughed",
+    "pastParticiple": "Laughed",
+    "gerund": "Laughing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Learn",
+    "pastSimple": "Learned",
+    "pastParticiple": "Learned",
+    "gerund": "Learning",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Like",
+    "pastSimple": "Liked",
+    "pastParticiple": "Liked",
+    "gerund": "Liking",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Listen",
+    "pastSimple": "Listened",
+    "pastParticiple": "Listened",
+    "gerund": "Listening",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Live",
+    "pastSimple": "Lived",
+    "pastParticiple": "Lived",
+    "gerund": "Living",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Look",
+    "pastSimple": "Looked",
+    "pastParticiple": "Looked",
+    "gerund": "Looking",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Love",
+    "pastSimple": "Loved",
+    "pastParticiple": "Loved",
+    "gerund": "Loving",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Manage",
+    "pastSimple": "Managed",
+    "pastParticiple": "Managed",
+    "gerund": "Managing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Mark",
+    "pastSimple": "Marked",
+    "pastParticiple": "Marked",
+    "gerund": "Marking",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Marry",
+    "pastSimple": "Married",
+    "pastParticiple": "Married",
+    "gerund": "Marrying",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Match",
+    "pastSimple": "Matched",
+    "pastParticiple": "Matched",
+    "gerund": "Matching",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Measure",
+    "pastSimple": "Measured",
+    "pastParticiple": "Measured",
+    "gerund": "Measuring",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Mention",
+    "pastSimple": "Mentioned",
+    "pastParticiple": "Mentioned",
+    "gerund": "Mentioning",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Miss",
+    "pastSimple": "Missed",
+    "pastParticiple": "Missed",
+    "gerund": "Missing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Move",
+    "pastSimple": "Moved",
+    "pastParticiple": "Moved",
+    "gerund": "Moving",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Name",
+    "pastSimple": "Named",
+    "pastParticiple": "Named",
+    "gerund": "Naming",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Notice",
+    "pastSimple": "Noticed",
+    "pastParticiple": "Noticed",
+    "gerund": "Noticing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Number",
+    "pastSimple": "Numbered",
+    "pastParticiple": "Numbered",
+    "gerund": "Numbering",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Obey",
+    "pastSimple": "Obeyed",
+    "pastParticiple": "Obeyed",
+    "gerund": "Obeying",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Object",
+    "pastSimple": "Objected",
+    "pastParticiple": "Objected",
+    "gerund": "Objecting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Observe",
+    "pastSimple": "Observed",
+    "pastParticiple": "Observed",
+    "gerund": "Observing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Obtain",
+    "pastSimple": "Obtained",
+    "pastParticiple": "Obtained",
+    "gerund": "Obtaining",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Occur",
+    "pastSimple": "Occurred",
+    "pastParticiple": "Occurred",
+    "gerund": "Occurring",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Offer",
+    "pastSimple": "Offered",
+    "pastParticiple": "Offered",
+    "gerund": "Offering",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Open",
+    "pastSimple": "Opened",
+    "pastParticiple": "Opened",
+    "gerund": "Opening",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Order",
+    "pastSimple": "Ordered",
+    "pastParticiple": "Ordered",
+    "gerund": "Ordering",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Organize",
+    "pastSimple": "Organized",
+    "pastParticiple": "Organized",
+    "gerund": "Organizing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Pack",
+    "pastSimple": "Packed",
+    "pastParticiple": "Packed",
+    "gerund": "Packing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Paint",
+    "pastSimple": "Painted",
+    "pastParticiple": "Painted",
+    "gerund": "Painting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Park",
+    "pastSimple": "Parked",
+    "pastParticiple": "Parked",
+    "gerund": "Parking",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Pass",
+    "pastSimple": "Passed",
+    "pastParticiple": "Passed",
+    "gerund": "Passing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Pause",
+    "pastSimple": "Paused",
+    "pastParticiple": "Paused",
+    "gerund": "Pausing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Perform",
+    "pastSimple": "Performed",
+    "pastParticiple": "Performed",
+    "gerund": "Performing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Permit",
+    "pastSimple": "Permitted",
+    "pastParticiple": "Permitted",
+    "gerund": "Permitting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Persuade",
+    "pastSimple": "Persuaded",
+    "pastParticiple": "Persuaded",
+    "gerund": "Persuading",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Phone",
+    "pastSimple": "Phoned",
+    "pastParticiple": "Phoned",
+    "gerund": "Phoning",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Pick",
+    "pastSimple": "Picked",
+    "pastParticiple": "Picked",
+    "gerund": "Picking",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Plan",
+    "pastSimple": "Planned",
+    "pastParticiple": "Planned",
+    "gerund": "Planning",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Point",
+    "pastSimple": "Pointed",
+    "pastParticiple": "Pointed",
+    "gerund": "Pointing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Postpone",
+    "pastSimple": "Postponed",
+    "pastParticiple": "Postponed",
+    "gerund": "Postponing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Practice",
+    "pastSimple": "Practiced",
+    "pastParticiple": "Practiced",
+    "gerund": "Practicing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Prefer",
+    "pastSimple": "Preferred",
+    "pastParticiple": "Preferred",
+    "gerund": "Preferring",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Prepare",
+    "pastSimple": "Prepared",
+    "pastParticiple": "Prepared",
+    "gerund": "Preparing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Present",
+    "pastSimple": "Presented",
+    "pastParticiple": "Presented",
+    "gerund": "Presenting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Prevent",
+    "pastSimple": "Prevented",
+    "pastParticiple": "Prevented",
+    "gerund": "Preventing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Print",
+    "pastSimple": "Printed",
+    "pastParticiple": "Printed",
+    "gerund": "Printing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Produce",
+    "pastSimple": "Produced",
+    "pastParticiple": "Produced",
+    "gerund": "Producing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Program",
+    "pastSimple": "Programmed",
+    "pastParticiple": "Programmed",
+    "gerund": "Programming",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Promise",
+    "pastSimple": "Promised",
+    "pastParticiple": "Promised",
+    "gerund": "Promising",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Protect",
+    "pastSimple": "Protected",
+    "pastParticiple": "Protected",
+    "gerund": "Protecting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Prove",
+    "pastSimple": "Proved",
+    "pastParticiple": "Proved",
+    "gerund": "Proving",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Provide",
+    "pastSimple": "Provided",
+    "pastParticiple": "Provided",
+    "gerund": "Providing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Publish",
+    "pastSimple": "Published",
+    "pastParticiple": "Published",
+    "gerund": "Publishing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Pull",
+    "pastSimple": "Pulled",
+    "pastParticiple": "Pulled",
+    "gerund": "Pulling",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Push",
+    "pastSimple": "Pushed",
+    "pastParticiple": "Pushed",
+    "gerund": "Pushing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Qualify",
+    "pastSimple": "Qualified",
+    "pastParticiple": "Qualified",
+    "gerund": "Qualifying",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Question",
+    "pastSimple": "Questioned",
+    "pastParticiple": "Questioned",
+    "gerund": "Questioning",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Race",
+    "pastSimple": "Raced",
+    "pastParticiple": "Raced",
+    "gerund": "Racing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Rain",
+    "pastSimple": "Rained",
+    "pastParticiple": "Rained",
+    "gerund": "Raining",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Raise",
+    "pastSimple": "Raised",
+    "pastParticiple": "Raised",
+    "gerund": "Raising",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Realize",
+    "pastSimple": "Realized",
+    "pastParticiple": "Realized",
+    "gerund": "Realizing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Receive",
+    "pastSimple": "Received",
+    "pastParticiple": "Received",
+    "gerund": "Receiving",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Recognize",
+    "pastSimple": "Recognized",
+    "pastParticiple": "Recognized",
+    "gerund": "Recognizing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Recommend",
+    "pastSimple": "Recommended",
+    "pastParticiple": "Recommended",
+    "gerund": "Recommending",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Record",
+    "pastSimple": "Recorded",
+    "pastParticiple": "Recorded",
+    "gerund": "Recording",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Reduce",
+    "pastSimple": "Reduced",
+    "pastParticiple": "Reduced",
+    "gerund": "Reducing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Refuse",
+    "pastSimple": "Refused",
+    "pastParticiple": "Refused",
+    "gerund": "Refusing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Regret",
+    "pastSimple": "Regretted",
+    "pastParticiple": "Regretted",
+    "gerund": "Regretting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Relax",
+    "pastSimple": "Relaxed",
+    "pastParticiple": "Relaxed",
+    "gerund": "Relaxing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Remain",
+    "pastSimple": "Remained",
+    "pastParticiple": "Remained",
+    "gerund": "Remaining",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Remember",
+    "pastSimple": "Remembered",
+    "pastParticiple": "Remembered",
+    "gerund": "Remembering",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Remind",
+    "pastSimple": "Reminded",
+    "pastParticiple": "Reminded",
+    "gerund": "Reminding",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Remove",
+    "pastSimple": "Removed",
+    "pastParticiple": "Removed",
+    "gerund": "Removing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Rent",
+    "pastSimple": "Rented",
+    "pastParticiple": "Rented",
+    "gerund": "Renting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Repair",
+    "pastSimple": "Repaired",
+    "pastParticiple": "Repaired",
+    "gerund": "Repairing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Repeat",
+    "pastSimple": "Repeated",
+    "pastParticiple": "Repeated",
+    "gerund": "Repeating",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Replace",
+    "pastSimple": "Replaced",
+    "pastParticiple": "Replaced",
+    "gerund": "Replacing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Reply",
+    "pastSimple": "Replied",
+    "pastParticiple": "Replied",
+    "gerund": "Replying",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Report",
+    "pastSimple": "Reported",
+    "pastParticiple": "Reported",
+    "gerund": "Reporting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Request",
+    "pastSimple": "Requested",
+    "pastParticiple": "Requested",
+    "gerund": "Requesting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Require",
+    "pastSimple": "Required",
+    "pastParticiple": "Required",
+    "gerund": "Requiring",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Rescue",
+    "pastSimple": "Rescued",
+    "pastParticiple": "Rescued",
+    "gerund": "Rescuing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Return",
+    "pastSimple": "Returned",
+    "pastParticiple": "Returned",
+    "gerund": "Returning",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Review",
+    "pastSimple": "Reviewed",
+    "pastParticiple": "Reviewed",
+    "gerund": "Reviewing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Rob",
+    "pastSimple": "Robbed",
+    "pastParticiple": "Robbed",
+    "gerund": "Robbing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Sail",
+    "pastSimple": "Sailed",
+    "pastParticiple": "Sailed",
+    "gerund": "Sailing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Save",
+    "pastSimple": "Saved",
+    "pastParticiple": "Saved",
+    "gerund": "Saving",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Scare",
+    "pastSimple": "Scared",
+    "pastParticiple": "Scared",
+    "gerund": "Scaring",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Search",
+    "pastSimple": "Searched",
+    "pastParticiple": "Searched",
+    "gerund": "Searching",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Seem",
+    "pastSimple": "Seemed",
+    "pastParticiple": "Seemed",
+    "gerund": "Seeming",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Select",
+    "pastSimple": "Selected",
+    "pastParticiple": "Selected",
+    "gerund": "Selecting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Serve",
+    "pastSimple": "Served",
+    "pastParticiple": "Served",
+    "gerund": "Serving",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Share",
+    "pastSimple": "Shared",
+    "pastParticiple": "Shared",
+    "gerund": "Sharing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Shop",
+    "pastSimple": "Shopped",
+    "pastParticiple": "Shopped",
+    "gerund": "Shopping",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Shout",
+    "pastSimple": "Shouted",
+    "pastParticiple": "Shouted",
+    "gerund": "Shouting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Sign",
+    "pastSimple": "Signed",
+    "pastParticiple": "Signed",
+    "gerund": "Signing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Skip",
+    "pastSimple": "Skipped",
+    "pastParticiple": "Skipped",
+    "gerund": "Skipping",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Smile",
+    "pastSimple": "Smiled",
+    "pastParticiple": "Smiled",
+    "gerund": "Smiling",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Smoke",
+    "pastSimple": "Smoked",
+    "pastParticiple": "Smoked",
+    "gerund": "Smoking",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Solve",
+    "pastSimple": "Solved",
+    "pastParticiple": "Solved",
+    "gerund": "Solving",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Sort",
+    "pastSimple": "Sorted",
+    "pastParticiple": "Sorted",
+    "gerund": "Sorting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Start",
+    "pastSimple": "Started",
+    "pastParticiple": "Started",
+    "gerund": "Starting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Stay",
+    "pastSimple": "Stayed",
+    "pastParticiple": "Stayed",
+    "gerund": "Staying",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Stop",
+    "pastSimple": "Stopped",
+    "pastParticiple": "Stopped",
+    "gerund": "Stopping",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Study",
+    "pastSimple": "Studied",
+    "pastParticiple": "Studied",
+    "gerund": "Studying",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Succeed",
+    "pastSimple": "Succeeded",
+    "pastParticiple": "Succeeded",
+    "gerund": "Succeeding",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Suffer",
+    "pastSimple": "Suffered",
+    "pastParticiple": "Suffered",
+    "gerund": "Suffering",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Suggest",
+    "pastSimple": "Suggested",
+    "pastParticiple": "Suggested",
+    "gerund": "Suggesting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Support",
+    "pastSimple": "Supported",
+    "pastParticiple": "Supported",
+    "gerund": "Supporting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Surprise",
+    "pastSimple": "Surprised",
+    "pastParticiple": "Surprised",
+    "gerund": "Surprising",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Survive",
+    "pastSimple": "Survived",
+    "pastParticiple": "Survived",
+    "gerund": "Surviving",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Taste",
+    "pastSimple": "Tasted",
+    "pastParticiple": "Tasted",
+    "gerund": "Tasting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Test",
+    "pastSimple": "Tested",
+    "pastParticiple": "Tested",
+    "gerund": "Testing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Thank",
+    "pastSimple": "Thanked",
+    "pastParticiple": "Thanked",
+    "gerund": "Thanking",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Tie",
+    "pastSimple": "Tied",
+    "pastParticiple": "Tied",
+    "gerund": "Tying",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Touch",
+    "pastSimple": "Touched",
+    "pastParticiple": "Touched",
+    "gerund": "Touching",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Travel",
+    "pastSimple": "Traveled",
+    "pastParticiple": "Traveled",
+    "gerund": "Traveling",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Trust",
+    "pastSimple": "Trusted",
+    "pastParticiple": "Trusted",
+    "gerund": "Trusting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Turn",
+    "pastSimple": "Turned",
+    "pastParticiple": "Turned",
+    "gerund": "Turning",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Type",
+    "pastSimple": "Typed",
+    "pastParticiple": "Typed",
+    "gerund": "Typing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Use",
+    "pastSimple": "Used",
+    "pastParticiple": "Used",
+    "gerund": "Using",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Vanish",
+    "pastSimple": "Vanished",
+    "pastParticiple": "Vanished",
+    "gerund": "Vanishing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Visit",
+    "pastSimple": "Visited",
+    "pastParticiple": "Visited",
+    "gerund": "Visiting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Wait",
+    "pastSimple": "Waited",
+    "pastParticiple": "Waited",
+    "gerund": "Waiting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Want",
+    "pastSimple": "Wanted",
+    "pastParticiple": "Wanted",
+    "gerund": "Wanting",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Warn",
+    "pastSimple": "Warned",
+    "pastParticiple": "Warned",
+    "gerund": "Warning",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Wash",
+    "pastSimple": "Washed",
+    "pastParticiple": "Washed",
+    "gerund": "Washing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Watch",
+    "pastSimple": "Watched",
+    "pastParticiple": "Watched",
+    "gerund": "Watching",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Wave",
+    "pastSimple": "Waved",
+    "pastParticiple": "Waved",
+    "gerund": "Waving",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Weigh",
+    "pastSimple": "Weighed",
+    "pastParticiple": "Weighed",
+    "gerund": "Weighing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Whisper",
+    "pastSimple": "Whispered",
+    "pastParticiple": "Whispered",
+    "gerund": "Whispering",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Whistle",
+    "pastSimple": "Whistled",
+    "pastParticiple": "Whistled",
+    "gerund": "Whistling",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Wish",
+    "pastSimple": "Wished",
+    "pastParticiple": "Wished",
+    "gerund": "Wishing",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Wonder",
+    "pastSimple": "Wondered",
+    "pastParticiple": "Wondered",
+    "gerund": "Wondering",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Worry",
+    "pastSimple": "Worried",
+    "pastParticiple": "Worried",
+    "gerund": "Worrying",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Yell",
+    "pastSimple": "Yelled",
+    "pastParticiple": "Yelled",
+    "gerund": "Yelling",
+    "isRegular": true
+  },
+  {
+    "infinitive": "Zip",
+    "pastSimple": "Zipped",
+    "pastParticiple": "Zipped",
+    "gerund": "Zipping",
+    "isRegular": true
+  }
 ]
