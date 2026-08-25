@@ -1,7 +1,6 @@
+import 'dart:convert';
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart'; // For native Haptic Feedback
-import 'package:audioplayers/audioplayers.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../data/verb_model.dart';
 import 'question_engine.dart';
@@ -10,9 +9,11 @@ class DynamicQuizState {
   final int score;
   final int streak;
   final int highestStreak;
-  final bool isDarkMode; // New state tracking
+  final bool isDarkMode;
   final DynamicQuestion currentQuestion;
   final List<HistoryEntry> history;
+  final String? revealCorrection;
+  final Map<String, int> failedVerbsCount;
 
   DynamicQuizState({
     required this.score,
@@ -21,25 +22,32 @@ class DynamicQuizState {
     required this.isDarkMode,
     required this.currentQuestion,
     required this.history,
+    required this.failedVerbsCount,
+    this.revealCorrection,
   });
 }
 
 class DynamicQuizNotifier extends ValueNotifier<DynamicQuizState> {
   final List<Verb> _verbs;
-  final SharedPreferences _prefs;
-  final AudioPlayer _audioPlayer = AudioPlayer(); // Initialize player instance
+  final SharedPreferences prefsInstance;
 
-  DynamicQuizNotifier(this._verbs, this._prefs)
+  DynamicQuizNotifier(this._verbs, this.prefsInstance)
       : super(DynamicQuizState(
           score: 0,
           streak: 0,
-          highestStreak: _prefs.getInt('highest_streak_key') ?? 0,
-          isDarkMode: _prefs.getBool('is_dark_mode_key') ?? false, // Load dark mode save
+          highestStreak: prefsInstance.getInt('highest_streak_key') ?? 0,
+          isDarkMode: prefsInstance.getBool('is_dark_mode_key') ?? false,
           currentQuestion: DynamicQuestion.generate(_pickVerbByWeight(_verbs), _verbs),
           history: [],
+          failedVerbsCount: _loadFailedMap(prefsInstance, 'failed_verbs_key'),
         ));
-  
-  SharedPreferences get prefsInstance => _prefs; 
+
+  static Map<String, int> _loadFailedMap(SharedPreferences prefs, String key) {
+    final String? jsonString = prefs.getString(key);
+    if (jsonString == null) return {};
+    final Map<String, dynamic> decoded = json.decode(jsonString);
+    return decoded.map((k, v) => MapEntry(k, v as int));
+  }
 
   static Verb _pickVerbByWeight(List<Verb> verbs) {
     int totalWeight = verbs.fold(0, (sum, item) => sum + item.weight);
@@ -52,11 +60,9 @@ class DynamicQuizNotifier extends ValueNotifier<DynamicQuizState> {
     return verbs.first;
   }
 
-  // Toggles dark mode globally and saves to storage file
   void toggleTheme() {
     final nextMode = !value.isDarkMode;
-    _prefs.setBool('is_dark_mode_key', nextMode);
-    
+    prefsInstance.setBool('is_dark_mode_key', nextMode);
     value = DynamicQuizState(
       score: value.score,
       streak: value.streak,
@@ -64,46 +70,46 @@ class DynamicQuizNotifier extends ValueNotifier<DynamicQuizState> {
       isDarkMode: nextMode,
       currentQuestion: value.currentQuestion,
       history: value.history,
+      failedVerbsCount: value.failedVerbsCount,
     );
   }
 
-  void submitAnswer(String selectedAnswer) {
+  void submitAnswer(String typedAnswer) {
     final currentQuestion = value.currentQuestion;
     final activeVerb = currentQuestion.verb;
     
+    final cleanInput = typedAnswer.trim().toLowerCase();
+    final correctTarget = currentQuestion.correctAnswer.trim().toLowerCase();
+
     int newScore = value.score;
     int newStreak = value.streak;
     int newHighestStreak = value.highestStreak;
-    bool isCorrect = selectedAnswer == currentQuestion.correctAnswer;
+    bool isCorrect = cleanInput == correctTarget;
+    String? correction;
+    Map<String, int> updatedFailedCount = Map.from(value.failedVerbsCount);
 
     if (isCorrect) {
       newScore += 1;
       newStreak += 1;
-      
-      // Native audio feedback (using official platform link presets)
-      _audioPlayer.play(UrlSource('https://mixkit.co'));
-      HapticFeedback.lightImpact(); // Soft physical vibration check
-      
       if (newStreak > newHighestStreak) {
         newHighestStreak = newStreak;
-        _prefs.setInt('highest_streak_key', newHighestStreak);
+        prefsInstance.setInt('highest_streak_key', newHighestStreak);
       }
       if (activeVerb.weight > 1) activeVerb.weight -= 1;
     } else {
+      correction = currentQuestion.correctAnswer;
       newScore -= 1;
       newStreak = 0;
-      
-      // Error feedback triggers
-      _audioPlayer.play(UrlSource('https://mixkit.co'));
-      HapticFeedback.vibrate(); // Heavier device physical buzz alerting a miss
-      
       activeVerb.weight += 3;
+
+      updatedFailedCount[activeVerb.infinitive] = (updatedFailedCount[activeVerb.infinitive] ?? 0) + 1;
+      prefsInstance.setString('failed_verbs_key', json.encode(updatedFailedCount));
     }
 
     final newEntry = HistoryEntry(
       verbInfinitive: activeVerb.infinitive,
       questionText: currentQuestion.questionText,
-      userAnswer: selectedAnswer,
+      userAnswer: typedAnswer,
       correctAnswer: currentQuestion.correctAnswer,
       isCorrect: isCorrect,
     );
@@ -121,6 +127,8 @@ class DynamicQuizNotifier extends ValueNotifier<DynamicQuizState> {
       isDarkMode: value.isDarkMode,
       currentQuestion: DynamicQuestion.generate(nextVerb, _verbs),
       history: updatedHistory,
+      revealCorrection: correction,
+      failedVerbsCount: updatedFailedCount,
     );
   }
 }
