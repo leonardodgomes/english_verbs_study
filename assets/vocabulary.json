@@ -1,32 +1,1448 @@
 [
-  {"word": "Apple", "hint": "A round fruit that can be red, green, or yellow.", "iconName": "apple"},
-  {"word": "Car", "hint": "A road vehicle with four wheels and an engine.", "iconName": "directions_car"},
-  {"word": "Dog", "hint": "A common domestic animal known as man's best friend.", "iconName": "pets"},
-  {"word": "House", "hint": "A building for human habitation.", "iconName": "home"},
-  {"word": "Book", "hint": "A written or printed work consisting of pages bound together.", "iconName": "book"},
-  {"word": "Bicycle", "hint": "A vehicle with two wheels propelled by pedals.", "iconName": "pedal_bike"},
-  {"word": "Cat", "hint": "A small domesticated carnivorous mammal with soft fur.", "iconName": "pets"},
-  {"word": "Watermelon", "hint": "A large round fruit with green skin and sweet red flesh.", "iconName": "apple"},
-  {"word": "Airplane", "hint": "A powered flying vehicle with fixed wings.", "iconName": "flight"},
-  {"word": "Train", "hint": "A series of connected railway carriages or wagons.", "iconName": "train"},
-  {"word": "Computer", "hint": "An electronic device for storing and processing data.", "iconName": "computer"},
-  {"word": "Phone", "hint": "A handheld device used primarily for communication.", "iconName": "phone_android"},
-  {"word": "Key", "hint": "A small piece of shaped metal used to open a lock.", "iconName": "key"},
-  {"word": "Tree", "hint": "A woody perennial plant, typically having a single stem.", "iconName": "nature"},
-  {"word": "Sun", "hint": "The star around which the earth orbits.", "iconName": "wb_sunny"},
-  {"word": "Moon", "hint": "The natural satellite of the earth.", "iconName": "dark_mode"},
-  {"word": "Camera", "hint": "A device for recording visual images.", "iconName": "photo_camera"},
-  {"word": "Watch", "hint": "A small timepiece worn typically on a strap on the wrist.", "iconName": "watch_later"},
-  {"word": "Cake", "hint": "A sweet food as an item of soft sweet food made from a baked batter.", "iconName": "cake"},
-  {"word": "Coffee", "hint": "A hot drink made from the roasted and ground seeds.", "iconName": "coffee"},
-  {"word": "Milk", "hint": "An opaque white fluid rich in fat and protein.", "iconName": "water_drop"},
-  {"word": "Chair", "hint": "A separate seat for one person, typically with four legs and a back.", "iconName": "chair"},
-  {"word": "Bed", "hint": "A piece of furniture for sleep or rest.", "iconName": "bed"},
-  {"word": "School", "hint": "An institution for educating children.", "iconName": "school"},
-  {"word": "Store", "hint": "A retail establishment selling items to the public.", "iconName": "store"},
-  {"word": "Music", "hint": "Vocal or instrumental sounds combined in such a way.", "iconName": "music_note"},
-  {"word": "Heart", "hint": "A hollow muscular organ that pumps the blood.", "iconName": "favorite"},
-  {"word": "Star", "hint": "A fixed luminous point in the night sky.", "iconName": "star"},
-  {"word": "Cloud", "hint": "A visible mass of condensed water vapor floating in the atmosphere.", "iconName": "cloud"},
-  {"word": "Umbrella", "hint": "A device consisting of a circular canopy of cloth on a folding metal frame.", "iconName": "umbrella"}
+  {
+    "word": "Dog",
+    "hint": "A common domestic animal known as man's best friend.",
+    "iconName": "pets",
+    "category": "Animals"
+  },
+  {
+    "word": "Cat",
+    "hint": "A small domesticated carnivorous mammal with soft fur.",
+    "iconName": "pets",
+    "category": "Animals"
+  },
+  {
+    "word": "Lion",
+    "hint": "A large tawny-colored cat that lives in prides; the king of the jungle.",
+    "iconName": "cruelty_free",
+    "category": "Animals"
+  },
+  {
+    "word": "Tiger",
+    "hint": "A large solitary cat with a yellow-brown coat striped with black.",
+    "iconName": "cruelty_free",
+    "category": "Animals"
+  },
+  {
+    "word": "Elephant",
+    "hint": "A very large herbivorous mammal with a trunk and tusks.",
+    "iconName": "cruelty_free",
+    "category": "Animals"
+  },
+  {
+    "word": "Bird",
+    "hint": "A feathered creature with wings that can fly.",
+    "iconName": "flutter_dash",
+    "category": "Animals"
+  },
+  {
+    "word": "Fish",
+    "hint": "A limbless cold-blooded vertebrate animal with gills and fins living wholly in water.",
+    "iconName": "set_meal",
+    "category": "Animals"
+  },
+  {
+    "word": "Horse",
+    "hint": "A large domesticated animal used for riding and pulling carts.",
+    "iconName": "cruelty_free",
+    "category": "Animals"
+  },
+  {
+    "word": "Cow",
+    "hint": "A fully grown female animal of a domesticated breed, kept for milk or beef.",
+    "iconName": "agriculture",
+    "category": "Animals"
+  },
+  {
+    "word": "Sheep",
+    "hint": "A domesticated ruminant mammal with a thick woolly coat.",
+    "iconName": "agriculture",
+    "category": "Animals"
+  },
+  {
+    "word": "Monkey",
+    "hint": "A small to medium-sized primate, typically having a long tail.",
+    "iconName": "cruelty_free",
+    "category": "Animals"
+  },
+  {
+    "word": "Bear",
+    "hint": "A large, heavy mammal with thick fur and a very short tail.",
+    "iconName": "cruelty_free",
+    "category": "Animals"
+  },
+  {
+    "word": "Rabbit",
+    "hint": "A burrowing plant-eating mammal with long ears and a short tail.",
+    "iconName": "cruelty_free",
+    "category": "Animals"
+  },
+  {
+    "word": "Fox",
+    "hint": "A carnivorous mammal with a pointed snout and a bushy tail, known for cunning.",
+    "iconName": "cruelty_free",
+    "category": "Animals"
+  },
+  {
+    "word": "Wolf",
+    "hint": "A wild carnivorous mammal that is the ancestor of the domestic dog.",
+    "iconName": "cruelty_free",
+    "category": "Animals"
+  },
+  {
+    "word": "Frog",
+    "hint": "A tailless amphibian with a short squat body and long hind legs for leaping.",
+    "iconName": "bug_report",
+    "category": "Animals"
+  },
+  {
+    "word": "Snake",
+    "hint": "A long limbless reptile which has no eyelids, a short tail, and jaws that are capable of considerable extension.",
+    "iconName": "bug_report",
+    "category": "Animals"
+  },
+  {
+    "word": "Turtle",
+    "hint": "A slow-moving reptile enclosed in a heavy bony shell.",
+    "iconName": "cruelty_free",
+    "category": "Animals"
+  },
+  {
+    "word": "Shark",
+    "hint": "A large voracious marine fish with a cartilaginous skeleton and multiple rows of teeth.",
+    "iconName": "set_meal",
+    "category": "Animals"
+  },
+  {
+    "word": "Dolphin",
+    "hint": "A small gregarious toothed whale that typically has a beaklike snout.",
+    "iconName": "cruelty_free",
+    "category": "Animals"
+  },
+  {
+    "word": "Whale",
+    "hint": "A very large marine mammal with a blowhole on top of the head for breathing.",
+    "iconName": "cruelty_free",
+    "category": "Animals"
+  },
+  {
+    "word": "Owl",
+    "hint": "A nocturnal bird of prey with large forward-facing eyes and a hawk-like beak.",
+    "iconName": "flutter_dash",
+    "category": "Animals"
+  },
+  {
+    "word": "Eagle",
+    "hint": "A large bird of prey with a massive hooked bill and long broad wings.",
+    "iconName": "flutter_dash",
+    "category": "Animals"
+  },
+  {
+    "word": "Duck",
+    "hint": "A waterbird with a broad blunt bill, short legs, and webbed feet.",
+    "iconName": "flutter_dash",
+    "category": "Animals"
+  },
+  {
+    "word": "Chicken",
+    "hint": "A domestic fowl kept for its eggs or meat.",
+    "iconName": "agriculture",
+    "category": "Animals"
+  },
+  {
+    "word": "Bee",
+    "hint": "A stinging winged insect which collects nectar and pollen and makes wax and honey.",
+    "iconName": "pest_control",
+    "category": "Animals"
+  },
+  {
+    "word": "Butterfly",
+    "hint": "An insect with two pairs of large, typically brightly colored wings.",
+    "iconName": "flutter_dash",
+    "category": "Animals"
+  },
+  {
+    "word": "Ant",
+    "hint": "A small insect, typically wingless, living in highly organized colonies.",
+    "iconName": "bug_report",
+    "category": "Animals"
+  },
+  {
+    "word": "Spider",
+    "hint": "An eight-legged predatory arachnid that spins web to catch prey.",
+    "iconName": "bug_report",
+    "category": "Animals"
+  },
+  {
+    "word": "Giraffe",
+    "hint": "A large African mammal with a very long neck and legs.",
+    "iconName": "cruelty_free",
+    "category": "Animals"
+  },
+  {
+    "word": "Zebra",
+    "hint": "An African wild horse with black-and-white stripes.",
+    "iconName": "cruelty_free",
+    "category": "Animals"
+  },
+  {
+    "word": "Deer",
+    "hint": "A hoofed grazing or browsing animal, with branched bony antlers in the male.",
+    "iconName": "cruelty_free",
+    "category": "Animals"
+  },
+  {
+    "word": "Kangaroo",
+    "hint": "A large leaping marsupial with powerful hind legs and a long tail.",
+    "iconName": "cruelty_free",
+    "category": "Animals"
+  },
+  {
+    "word": "Penguin",
+    "hint": "A flightless seabird of the southern hemisphere with black and white plumage.",
+    "iconName": "flutter_dash",
+    "category": "Animals"
+  },
+  {
+    "word": "Octopus",
+    "hint": "A sea creature with a soft oval body and eight tentacles.",
+    "iconName": "set_meal",
+    "category": "Animals"
+  },
+  {
+    "word": "Apple",
+    "hint": "A round fruit that can be red, green, or yellow.",
+    "iconName": "apple",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Watermelon",
+    "hint": "A large round fruit with green skin and sweet red flesh.",
+    "iconName": "apple",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Cake",
+    "hint": "A sweet food as an item of soft sweet food made from a baked batter.",
+    "iconName": "cake",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Coffee",
+    "hint": "A hot drink made from the roasted and ground seeds.",
+    "iconName": "coffee",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Milk",
+    "hint": "An opaque white fluid rich in fat and protein.",
+    "iconName": "water_drop",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Banana",
+    "hint": "A long curved fruit which grows in clusters and has soft pulpy flesh.",
+    "iconName": "apple",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Orange",
+    "hint": "A round juicy citrus fruit with a tough bright reddish-yellow rind.",
+    "iconName": "apple",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Bread",
+    "hint": "Food made of flour, water, and yeast mixed together and baked.",
+    "iconName": "bakery_dining",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Cheese",
+    "hint": "A food made from the pressed curds of milk.",
+    "iconName": "restaurant",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Egg",
+    "hint": "An oval object produced by a female bird, used as food.",
+    "iconName": "egg",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Pizza",
+    "hint": "A dish of Italian origin consisting of a flat, round base of dough baked with toppings.",
+    "iconName": "local_pizza",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Burger",
+    "hint": "A round patty of minced beef served in a sliced bun.",
+    "iconName": "lunch_dining",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Rice",
+    "hint": "Grains of a marsh grass cultivated as a food staple.",
+    "iconName": "rice_bowl",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Chocolate",
+    "hint": "A sweet food preparation of roasted and ground cacao seeds.",
+    "iconName": "icecream",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Tea",
+    "hint": "A hot drink made by infusing dried crushed leaves in boiling water.",
+    "iconName": "coffee",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Water",
+    "hint": "A colorless, transparent, odorless liquid that forms the seas, lakes, and rain.",
+    "iconName": "water_drop",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Wine",
+    "hint": "An alcoholic drink made from fermented grape juice.",
+    "iconName": "wine_bar",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Beer",
+    "hint": "An alcoholic drink made from yeast-fermented malt flavored with hops.",
+    "iconName": "sports_bar",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Icecream",
+    "hint": "A soft frozen food made with milk fat, sugar, and flavoring.",
+    "iconName": "icecream",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Cookie",
+    "hint": "A sweet baked biscuit, typically crisp and containing chocolate chips.",
+    "iconName": "cookie",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Soup",
+    "hint": "A liquid dish, typically made by boiling meat, fish, or vegetables in stock.",
+    "iconName": "soup_kitchen",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Salad",
+    "hint": "A cold dish of various mixtures of raw or cooked vegetables.",
+    "iconName": "dinner_dining",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Tomato",
+    "hint": "A glossy red fruit eaten as a vegetable, raw or cooked.",
+    "iconName": "nutrition",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Potato",
+    "hint": "A starchy plant tuber which is one of the most important staple foods.",
+    "iconName": "nutrition",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Onion",
+    "hint": "A swollen edible bulb with a pungent taste and smell.",
+    "iconName": "nutrition",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Garlic",
+    "hint": "A strong-smelling pungent bulb, used as a flavoring in cooking.",
+    "iconName": "nutrition",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Carrot",
+    "hint": "A tapering orange root vegetable, eaten raw or cooked.",
+    "iconName": "nutrition",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Grape",
+    "hint": "A berry growing in clusters on a grapevine, eaten as fruit or used to make wine.",
+    "iconName": "apple",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Strawberry",
+    "hint": "A sweet soft red fruit with a seed-studded surface.",
+    "iconName": "apple",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Pineapple",
+    "hint": "A large juicy tropical fruit consisting of aromatic edible yellow flesh surrounded by a tough skin.",
+    "iconName": "apple",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Lemon",
+    "hint": "A pale yellow oval citrus fruit with thick skin and fragrant, acidic juice.",
+    "iconName": "apple",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Meat",
+    "hint": "The flesh of an animal, typically a mammal or bird, as food.",
+    "iconName": "kebab_dining",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Salt",
+    "hint": "A white crystalline substance that gives seawater its characteristic taste and is used for seasoning.",
+    "iconName": "grain",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Sugar",
+    "hint": "A sweet crystalline substance obtained from various plants.",
+    "iconName": "grain",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Honey",
+    "hint": "A sweet, sticky yellowish-brown fluid made by bees.",
+    "iconName": "hive",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Butter",
+    "hint": "A pale yellow edible fatty substance made by churning cream.",
+    "iconName": "restaurant",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Juice",
+    "hint": "The liquid obtained from or present in fruit or vegetables.",
+    "iconName": "local_drink",
+    "category": "Food & Drinks"
+  },
+  {
+    "word": "Car",
+    "hint": "A road vehicle with four wheels and an engine.",
+    "iconName": "directions_car",
+    "category": "Transport"
+  },
+  {
+    "word": "Bicycle",
+    "hint": "A vehicle with two wheels propelled by pedals.",
+    "iconName": "pedal_bike",
+    "category": "Transport"
+  },
+  {
+    "word": "Airplane",
+    "hint": "A powered flying vehicle with fixed wings.",
+    "iconName": "flight",
+    "category": "Transport"
+  },
+  {
+    "word": "Train",
+    "hint": "A series of connected railway carriages or wagons.",
+    "iconName": "train",
+    "category": "Transport"
+  },
+  {
+    "word": "Bus",
+    "hint": "A large motor vehicle carrying passengers by road.",
+    "iconName": "directions_bus",
+    "category": "Transport"
+  },
+  {
+    "word": "Motorcycle",
+    "hint": "A two-wheeled motor vehicle.",
+    "iconName": "motorcycle",
+    "category": "Transport"
+  },
+  {
+    "word": "Ship",
+    "hint": "A large boat for transporting people or goods by sea.",
+    "iconName": "directions_boat",
+    "category": "Transport"
+  },
+  {
+    "word": "Boat",
+    "hint": "A small vessel for traveling on water.",
+    "iconName": "directions_boat",
+    "category": "Transport"
+  },
+  {
+    "word": "Helicopter",
+    "hint": "A type of aircraft which derives both lift and propulsion from rotors.",
+    "iconName": "flight",
+    "category": "Transport"
+  },
+  {
+    "word": "Truck",
+    "hint": "A large, heavy motor vehicle for transporting goods.",
+    "iconName": "local_shipping",
+    "category": "Transport"
+  },
+  {
+    "word": "Taxi",
+    "hint": "A motor car licensed to transport passengers in return for a fare.",
+    "iconName": "local_taxi",
+    "category": "Transport"
+  },
+  {
+    "word": "Subway",
+    "hint": "An underground railway system.",
+    "iconName": "subway",
+    "category": "Transport"
+  },
+  {
+    "word": "Rocket",
+    "hint": "A cylindrical projectile that can be propelled to a great height or into space.",
+    "iconName": "rocket_launch",
+    "category": "Transport"
+  },
+  {
+    "word": "Ambulance",
+    "hint": "A vehicle equipped for taking sick or injured people to hospital.",
+    "iconName": "medical_services",
+    "category": "Transport"
+  },
+  {
+    "word": "Scooter",
+    "hint": "A light two-wheeled open motor vehicle or a foot-propelled platform.",
+    "iconName": "moped",
+    "category": "Transport"
+  },
+  {
+    "word": "Computer",
+    "hint": "An electronic device for storing and processing data.",
+    "iconName": "computer",
+    "category": "Technology"
+  },
+  {
+    "word": "Phone",
+    "hint": "A handheld device used primarily for communication.",
+    "iconName": "phone_android",
+    "category": "Technology"
+  },
+  {
+    "word": "Camera",
+    "hint": "A device for recording visual images.",
+    "iconName": "photo_camera",
+    "category": "Technology"
+  },
+  {
+    "word": "Television",
+    "hint": "A device with a screen for receiving television signals.",
+    "iconName": "tv",
+    "category": "Technology"
+  },
+  {
+    "word": "Radio",
+    "hint": "A device used to receive sound broadcasts.",
+    "iconName": "radio",
+    "category": "Technology"
+  },
+  {
+    "word": "Headphones",
+    "hint": "A pair of small speakers worn on or around the head.",
+    "iconName": "headphones",
+    "category": "Technology"
+  },
+  {
+    "word": "Mouse",
+    "hint": "A hand-controlled electronic device used to move a cursor on a computer screen.",
+    "iconName": "mouse",
+    "category": "Technology"
+  },
+  {
+    "word": "Keyboard",
+    "hint": "A panel of keys used to input text into a computer.",
+    "iconName": "keyboard",
+    "category": "Technology"
+  },
+  {
+    "word": "Laptop",
+    "hint": "A portable computer suitable for use while traveling.",
+    "iconName": "laptop",
+    "category": "Technology"
+  },
+  {
+    "word": "Tablet",
+    "hint": "A portable computer with a touchscreen interface.",
+    "iconName": "tablet_android",
+    "category": "Technology"
+  },
+  {
+    "word": "Printer",
+    "hint": "A machine for printing text or pictures onto paper.",
+    "iconName": "print",
+    "category": "Technology"
+  },
+  {
+    "word": "Watch",
+    "hint": "A mobile device with a touchscreen display designed to be worn on a wrist.",
+    "iconName": "watch",
+    "category": "Technology"
+  },
+  {
+    "word": "Router",
+    "hint": "A device that forwards data packets between computer networks.",
+    "iconName": "router",
+    "category": "Technology"
+  },
+  {
+    "word": "Drone",
+    "hint": "An unmanned aircraft guided by remote control.",
+    "iconName": "flight",
+    "category": "Technology"
+  },
+  {
+    "word": "Microphone",
+    "hint": "An instrument for converting sound waves into electrical energy.",
+    "iconName": "mic",
+    "category": "Technology"
+  },
+  {
+    "word": "Tree",
+    "hint": "A woody perennial plant, typically having a single stem.",
+    "iconName": "nature",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "Sun",
+    "hint": "The star around which the earth orbits.",
+    "iconName": "wb_sunny",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "Moon",
+    "hint": "The natural satellite of the earth.",
+    "iconName": "dark_mode",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "Cloud",
+    "hint": "A visible mass of condensed water vapor floating in the atmosphere.",
+    "iconName": "cloud",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "Star",
+    "hint": "A fixed luminous point in the night sky.",
+    "iconName": "star",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "Flower",
+    "hint": "The seed-bearing part of a plant, consisting of reproductive organs.",
+    "iconName": "local_florist",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "River",
+    "hint": "A large natural stream of water flowing in a channel to the sea.",
+    "iconName": "water",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "Mountain",
+    "hint": "A large natural elevation of the earth's surface rising abruptly from the surrounding level.",
+    "iconName": "terrain",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "Sea",
+    "hint": "The expanse of salt water that covers most of the earth's surface.",
+    "iconName": "water",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "Ocean",
+    "hint": "A very large expanse of sea, in particular, each of the main areas of saltwater.",
+    "iconName": "waves",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "Rain",
+    "hint": "Moisture condensed from the atmosphere that falls visibly in separate drops.",
+    "iconName": "grain",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "Snow",
+    "hint": "Atmospheric water vapor frozen into ice crystals and falling in light white flakes.",
+    "iconName": "ac_unit",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "Wind",
+    "hint": "The perceptible natural movement of the air, especially in the form of a current.",
+    "iconName": "air",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "Sky",
+    "hint": "The region of the atmosphere and outer space seen from the earth.",
+    "iconName": "cloud_queue",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "Earth",
+    "hint": "The planet on which we live; the world.",
+    "iconName": "public",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "Planet",
+    "hint": "A celestial body moving in an elliptical orbit round a star.",
+    "iconName": "public",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "Fire",
+    "hint": "Combustion or burning, in which substances combine chemically with oxygen.",
+    "iconName": "local_fire_department",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "Ice",
+    "hint": "Frozen water, a brittle transparent crystalline solid.",
+    "iconName": "ac_unit",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "Island",
+    "hint": "A piece of land surrounded by water.",
+    "iconName": "holiday_village",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "Desert",
+    "hint": "A barren area of landscape where little precipitation occurs.",
+    "iconName": "wb_sunny",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "Forest",
+    "hint": "A large area covered chiefly with trees and undergrowth.",
+    "iconName": "forest",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "Rock",
+    "hint": "The solid mineral material forming part of the surface of the earth.",
+    "iconName": "landscape",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "Sand",
+    "hint": "A loose granular substance resulting from the erosion of siliceous rocks.",
+    "iconName": "grain",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "Grass",
+    "hint": "Vegetation consisting of typically short plants with long, narrow leaves.",
+    "iconName": "grass",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "Leaf",
+    "hint": "A flattened structure of a higher plant, typically green and blade-like.",
+    "iconName": "eco",
+    "category": "Nature & Space"
+  },
+  {
+    "word": "House",
+    "hint": "A building for human habitation.",
+    "iconName": "home",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Chair",
+    "hint": "A separate seat for one person, typically with four legs and a back.",
+    "iconName": "chair",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Bed",
+    "hint": "A piece of furniture for sleep or rest.",
+    "iconName": "bed",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Table",
+    "hint": "A piece of furniture with a flat top and one or more legs, used for eating or writing.",
+    "iconName": "table_restaurant",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Door",
+    "hint": "A hinged, sliding, or revolving barrier at the entrance to a room or building.",
+    "iconName": "door_front",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Window",
+    "hint": "An opening in a wall or door, fitted with glass to admit light or air.",
+    "iconName": "window",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Desk",
+    "hint": "A piece of furniture with a flat surface used for school or office work.",
+    "iconName": "desk",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Sofa",
+    "hint": "A long upholstered seat with a back and arms for two or more people.",
+    "iconName": "chair",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Lamp",
+    "hint": "A device for giving light, especially one that has a bulb ignited by electricity.",
+    "iconName": "lightbulb",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Kitchen",
+    "hint": "A room or area where food is prepared and cooked.",
+    "iconName": "soup_kitchen",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Bathroom",
+    "hint": "A room containing a toilet and tub or shower.",
+    "iconName": "bathroom",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Bedroom",
+    "hint": "A room for sleeping in.",
+    "iconName": "bed",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Mirror",
+    "hint": "A surface which reflects a clear image.",
+    "iconName": "crop_portrait",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Clock",
+    "hint": "A mechanical or electrical device for measuring and showing time.",
+    "iconName": "schedule",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Refrigerator",
+    "hint": "An appliance that is kept cool inside to preserve food and drink.",
+    "iconName": "kitchen",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Oven",
+    "hint": "An enclosed compartment, as in a kitchen range, for cooking and heating food.",
+    "iconName": "local_fire_department",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Plate",
+    "hint": "A flat dish, typically circular, from which food is eaten.",
+    "iconName": "restaurant",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Cup",
+    "hint": "A small bowl-shaped container for drinking from, typically having a handle.",
+    "iconName": "local_cafe",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Spoon",
+    "hint": "An implement consisting of a small, shallow oval bowl with a long handle, used for eating.",
+    "iconName": "restaurant",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Fork",
+    "hint": "An implement with two or more prongs used for lifting food to the mouth.",
+    "iconName": "restaurant",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Knife",
+    "hint": "An instrument with a blade fixed into a handle, used for cutting.",
+    "iconName": "restaurant",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Key",
+    "hint": "A small piece of shaped metal used to open a lock.",
+    "iconName": "key",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Wall",
+    "hint": "A continuous vertical brick or stone structure that encloses or divides an area.",
+    "iconName": "wallpaper",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Roof",
+    "hint": "The structure forming the upper covering of a building or vehicle.",
+    "iconName": "house",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Floor",
+    "hint": "The lower surface of a room, on which one stands.",
+    "iconName": "layers",
+    "category": "Home & Furniture"
+  },
+  {
+    "word": "Shirt",
+    "hint": "A garment for the upper body, typically having sleeves and a collar.",
+    "iconName": "checkroom",
+    "category": "Clothing & Fashion"
+  },
+  {
+    "word": "Pants",
+    "hint": "An outer garment covering the body from the waist to the ankles.",
+    "iconName": "checkroom",
+    "category": "Clothing & Fashion"
+  },
+  {
+    "word": "Shoes",
+    "hint": "Coverings for the feet, typically made of leather or plastic.",
+    "iconName": "ice_skating",
+    "category": "Clothing & Fashion"
+  },
+  {
+    "word": "Hat",
+    "hint": "A shaped covering for the head worn for warmth or fashion.",
+    "iconName": "face",
+    "category": "Clothing & Fashion"
+  },
+  {
+    "word": "Dress",
+    "hint": "A one-piece garment for a woman or girl that covers the body and extends down over the legs.",
+    "iconName": "checkroom",
+    "category": "Clothing & Fashion"
+  },
+  {
+    "word": "Skirt",
+    "hint": "A garment fastened around the waist and hanging down around the legs.",
+    "iconName": "checkroom",
+    "category": "Clothing & Fashion"
+  },
+  {
+    "word": "Coat",
+    "hint": "An outer garment with sleeves, worn outdoors and typically extending below the hips.",
+    "iconName": "checkroom",
+    "category": "Clothing & Fashion"
+  },
+  {
+    "word": "Socks",
+    "hint": "Garments for the feet and lower part of the leg, worn inside shoes.",
+    "iconName": "checkroom",
+    "category": "Clothing & Fashion"
+  },
+  {
+    "word": "Jacket",
+    "hint": "A short coat, in particular one that is lightweight or formal.",
+    "iconName": "checkroom",
+    "category": "Clothing & Fashion"
+  },
+  {
+    "word": "Glasses",
+    "hint": "A pair of lenses set in a frame resting on the nose and ears, used to correct vision.",
+    "iconName": "eyeglasses",
+    "category": "Clothing & Fashion"
+  },
+  {
+    "word": "Bag",
+    "hint": "A flexible container with an opening at the top, used for carrying things.",
+    "iconName": "shopping_bag",
+    "category": "Clothing & Fashion"
+  },
+  {
+    "word": "Belt",
+    "hint": "A strip of leather or ribbon worn round the waist to support clothes.",
+    "iconName": "horizontal_rule",
+    "category": "Clothing & Fashion"
+  },
+  {
+    "word": "Gloves",
+    "hint": "Coverings for the hand having separate sections for each finger.",
+    "iconName": "front_hand",
+    "category": "Clothing & Fashion"
+  },
+  {
+    "word": "Scarf",
+    "hint": "A length of fabric worn around the neck or head for warmth or decoration.",
+    "iconName": "checkroom",
+    "category": "Clothing & Fashion"
+  },
+  {
+    "word": "School",
+    "hint": "An institution for educating children.",
+    "iconName": "school",
+    "category": "Places & Buildings"
+  },
+  {
+    "word": "Store",
+    "hint": "A retail establishment selling items to the public.",
+    "iconName": "store",
+    "category": "Places & Buildings"
+  },
+  {
+    "word": "Hospital",
+    "hint": "An institution providing medical and surgical treatment.",
+    "iconName": "local_hospital",
+    "category": "Places & Buildings"
+  },
+  {
+    "word": "Library",
+    "hint": "A building or room containing collections of books for reading or borrowing.",
+    "iconName": "local_library",
+    "category": "Places & Buildings"
+  },
+  {
+    "word": "Park",
+    "hint": "A large public green area in a town, used for recreation.",
+    "iconName": "park",
+    "category": "Places & Buildings"
+  },
+  {
+    "word": "Bank",
+    "hint": "A financial establishment that invests money and holds deposits.",
+    "iconName": "account_balance",
+    "category": "Places & Buildings"
+  },
+  {
+    "word": "Restaurant",
+    "hint": "A place where people pay to sit and eat meals that are cooked on the premises.",
+    "iconName": "restaurant",
+    "category": "Places & Buildings"
+  },
+  {
+    "word": "Hotel",
+    "hint": "An establishment providing accommodation, meals, and other services for travelers.",
+    "iconName": "hotel",
+    "category": "Places & Buildings"
+  },
+  {
+    "word": "Airport",
+    "hint": "A complex of runways and buildings for the take-off, landing, and maintenance of civil aircraft.",
+    "iconName": "local_airport",
+    "category": "Places & Buildings"
+  },
+  {
+    "word": "Station",
+    "hint": "A stopping place on a railway line where passengers take trains.",
+    "iconName": "train",
+    "category": "Places & Buildings"
+  },
+  {
+    "word": "Cinema",
+    "hint": "A theater where movies are shown.",
+    "iconName": "movie",
+    "category": "Places & Buildings"
+  },
+  {
+    "word": "Museum",
+    "hint": "A building in which objects of historical, scientific, artistic, or cultural interest are stored and exhibited.",
+    "iconName": "museum",
+    "category": "Places & Buildings"
+  },
+  {
+    "word": "Office",
+    "hint": "A room or building used for commercial, professional, or bureaucratic work.",
+    "iconName": "work",
+    "category": "Places & Buildings"
+  },
+  {
+    "word": "Church",
+    "hint": "A building used for public Christian worship.",
+    "iconName": "church",
+    "category": "Places & Buildings"
+  },
+  {
+    "word": "Beach",
+    "hint": "A pebbly or sandy shore, especially by the ocean between high- and low-water marks.",
+    "iconName": "beach_access",
+    "category": "Places & Buildings"
+  },
+  {
+    "word": "Ball",
+    "hint": "A spherical object used in games and sports.",
+    "iconName": "sports_baseball",
+    "category": "Sports & HOBBIES"
+  },
+  {
+    "word": "Game",
+    "hint": "A form of play or sport, especially a competitive one played according to rules.",
+    "iconName": "sports_esports",
+    "category": "Sports & HOBBIES"
+  },
+  {
+    "word": "Music",
+    "hint": "Vocal or instrumental sounds combined in such a way.",
+    "iconName": "music_note",
+    "category": "Sports & HOBBIES"
+  },
+  {
+    "word": "Book",
+    "hint": "A written or printed work consisting of pages bound together.",
+    "iconName": "book",
+    "category": "Sports & HOBBIES"
+  },
+  {
+    "word": "Guitar",
+    "hint": "A stringed musical instrument, with six or twelve strings, played by plucking or strumming.",
+    "iconName": "music_note",
+    "category": "Sports & HOBBIES"
+  },
+  {
+    "word": "Piano",
+    "hint": "A large keyboard musical instrument with strings struck by felt hammers.",
+    "iconName": "piano",
+    "category": "Sports & HOBBIES"
+  },
+  {
+    "word": "Soccer",
+    "hint": "A game played by two teams of eleven players with a round ball that may not be touched with the hands.",
+    "iconName": "sports_soccer",
+    "category": "Sports & HOBBIES"
+  },
+  {
+    "word": "Tennis",
+    "hint": "A game in which two or four players use rackets to hit a ball over a net.",
+    "iconName": "sports_tennis",
+    "category": "Sports & HOBBIES"
+  },
+  {
+    "word": "Running",
+    "hint": "The action or movement of a runner.",
+    "iconName": "directions_run",
+    "category": "Sports & HOBBIES"
+  },
+  {
+    "word": "Swimming",
+    "hint": "The sport or activity of propelling oneself through water.",
+    "iconName": "pool",
+    "category": "Sports & HOBBIES"
+  },
+  {
+    "word": "Painting",
+    "hint": "The action or skill of using paint to create art.",
+    "iconName": "palette",
+    "category": "Sports & HOBBIES"
+  },
+  {
+    "word": "Dance",
+    "hint": "Move rhythmically to music, typically following a set sequence of steps.",
+    "iconName": "celebration",
+    "category": "Sports & HOBBIES"
+  },
+  {
+    "word": "Movie",
+    "hint": "A story or event recorded by a camera as a set of moving images.",
+    "iconName": "movie",
+    "category": "Sports & HOBBIES"
+  },
+  {
+    "word": "Chess",
+    "hint": "A board game for two players who move 16 pieces according to fixed rules.",
+    "iconName": "extension",
+    "category": "Sports & HOBBIES"
+  },
+  {
+    "word": "Man",
+    "hint": "An adult human male.",
+    "iconName": "person",
+    "category": "People & Roles"
+  },
+  {
+    "word": "Woman",
+    "hint": "An adult human female.",
+    "iconName": "person",
+    "category": "People & Roles"
+  },
+  {
+    "word": "Child",
+    "hint": "A young human being below the age of puberty.",
+    "iconName": "child_care",
+    "category": "People & Roles"
+  },
+  {
+    "word": "Baby",
+    "hint": "A very young child or infant.",
+    "iconName": "child_friendly",
+    "category": "People & Roles"
+  },
+  {
+    "word": "Teacher",
+    "hint": "A person who teaches, especially in a school.",
+    "iconName": "school",
+    "category": "People & Roles"
+  },
+  {
+    "word": "Doctor",
+    "hint": "A qualified practitioner of medicine.",
+    "iconName": "medical_services",
+    "category": "People & Roles"
+  },
+  {
+    "word": "Nurse",
+    "hint": "A person trained to care for the sick or infirm.",
+    "iconName": "local_hospital",
+    "category": "People & Roles"
+  },
+  {
+    "word": "Police",
+    "hint": "The civil force of a state, responsible for law enforcement.",
+    "iconName": "local_police",
+    "category": "People & Roles"
+  },
+  {
+    "word": "Chef",
+    "hint": "A professional cook, typically the chief cook in a restaurant.",
+    "iconName": "soup_kitchen",
+    "category": "People & Roles"
+  },
+  {
+    "word": "Student",
+    "hint": "A person who is studying at a school or college.",
+    "iconName": "school",
+    "category": "People & Roles"
+  },
+  {
+    "word": "Friend",
+    "hint": "A person whom one knows and has a bond of mutual affection with.",
+    "iconName": "group",
+    "category": "People & Roles"
+  },
+  {
+    "word": "Family",
+    "hint": "A group consisting of parents and children living together in a household.",
+    "iconName": "family_restroom",
+    "category": "People & Roles"
+  },
+  {
+    "word": "Mother",
+    "hint": "A female parent.",
+    "iconName": "face",
+    "category": "People & Roles"
+  },
+  {
+    "word": "Father",
+    "hint": "A male parent.",
+    "iconName": "face",
+    "category": "People & Roles"
+  },
+  {
+    "word": "Driver",
+    "hint": "A person who drives a vehicle.",
+    "iconName": "time_to_leave",
+    "category": "People & Roles"
+  },
+  {
+    "word": "Umbrella",
+    "hint": "A device consisting of a circular canopy of cloth on a folding metal frame.",
+    "iconName": "umbrella",
+    "category": "Objects & Daily Tools"
+  },
+  {
+    "word": "Pen",
+    "hint": "An instrument for writing or drawing with ink.",
+    "iconName": "edit",
+    "category": "Objects & Daily Tools"
+  },
+  {
+    "word": "Pencil",
+    "hint": "An instrument for writing or drawing, consisting of a thin stick of graphite enclosed in wood.",
+    "iconName": "edit",
+    "category": "Objects & Daily Tools"
+  },
+  {
+    "word": "Paper",
+    "hint": "Material manufactured in thin sheets from the pulp of wood, used for writing, printing, or wrapping.",
+    "iconName": "description",
+    "category": "Objects & Daily Tools"
+  },
+  {
+    "word": "Scissors",
+    "hint": "An instrument used for cutting cloth, paper, and other thin material.",
+    "iconName": "content_cut",
+    "category": "Objects & Daily Tools"
+  },
+  {
+    "word": "Hammer",
+    "hint": "A tool with a heavy metal head mounted at right angles at the end of a handle.",
+    "iconName": "build",
+    "category": "Objects & Daily Tools"
+  },
+  {
+    "word": "Money",
+    "hint": "A current medium of exchange in the form of coins and banknotes.",
+    "iconName": "attach_money",
+    "category": "Objects & Daily Tools"
+  },
+  {
+    "word": "Wallet",
+    "hint": "A pocket-sized flat folding case for holding money and plastic cards.",
+    "iconName": "account_balance_wallet",
+    "category": "Objects & Daily Tools"
+  },
+  {
+    "word": "Box",
+    "hint": "A container with a flat base and sides, typically square or rectangular and having a lid.",
+    "iconName": "inventory_2",
+    "category": "Objects & Daily Tools"
+  },
+  {
+    "word": "Soap",
+    "hint": "A substance used with water for washing and cleaning.",
+    "iconName": "clean_hands",
+    "category": "Objects & Daily Tools"
+  },
+  {
+    "word": "Towel",
+    "hint": "A piece of thick absorbent cloth or paper used for drying oneself.",
+    "iconName": "texture",
+    "category": "Objects & Daily Tools"
+  },
+  {
+    "word": "Brush",
+    "hint": "An implement with a handle and bristles, hair, or wire, used for cleaning or grooming.",
+    "iconName": "brush",
+    "category": "Objects & Daily Tools"
+  },
+  {
+    "word": "Bottle",
+    "hint": "A container, typically made of glass or plastic, with a narrow neck, used for storing liquids.",
+    "iconName": "liquor",
+    "category": "Objects & Daily Tools"
+  },
+  {
+    "word": "Ring",
+    "hint": "A small circular band of precious metal worn on a finger.",
+    "iconName": "diamond",
+    "category": "Objects & Daily Tools"
+  },
+  {
+    "word": "Coin",
+    "hint": "A flat, typically round piece of metal with an official stamp, used as money.",
+    "iconName": "monetization_on",
+    "category": "Objects & Daily Tools"
+  },
+  {
+    "word": "Candle",
+    "hint": "A cylinder or block of wax or tallow with a central wick which is lit to produce light.",
+    "iconName": "lightbulb",
+    "category": "Objects & Daily Tools"
+  },
+  {
+    "word": "Basket",
+    "hint": "A container used for holding or carrying things, typically made of interwoven strips of cane or wire.",
+    "iconName": "shopping_basket",
+    "category": "Objects & Daily Tools"
+  },
+  {
+    "word": "Heart",
+    "hint": "A hollow muscular organ that pumps the blood, often a symbol of love.",
+    "iconName": "favorite",
+    "category": "Abstract & Misc"
+  },
+  {
+    "word": "Time",
+    "hint": "The indefinite continued progress of existence and events in the past, present, and future.",
+    "iconName": "access_time",
+    "category": "Abstract & Misc"
+  },
+  {
+    "word": "Love",
+    "hint": "An intense feeling of deep affection.",
+    "iconName": "favorite",
+    "category": "Abstract & Misc"
+  },
+  {
+    "word": "Idea",
+    "hint": "A thought or suggestion as to a possible course of action.",
+    "iconName": "lightbulb",
+    "category": "Abstract & Misc"
+  },
+  {
+    "word": "Peace",
+    "hint": "Freedom from disturbance; tranquility.",
+    "iconName": "peacemaker",
+    "category": "Abstract & Misc"
+  },
+  {
+    "word": "Language",
+    "hint": "The method of human communication, either spoken or written.",
+    "iconName": "translate",
+    "category": "Abstract & Misc"
+  },
+  {
+    "word": "History",
+    "hint": "The study of past events, particularly in human affairs.",
+    "iconName": "history",
+    "category": "Abstract & Misc"
+  },
+  {
+    "word": "Science",
+    "hint": "The intellectual and practical activity encompassing the systematic study of the structure and behavior of the physical world.",
+    "iconName": "science",
+    "category": "Abstract & Misc"
+  },
+  {
+    "word": "Math",
+    "hint": "The abstract science of number, quantity, and space.",
+    "iconName": "calculate",
+    "category": "Abstract & Misc"
+  },
+  {
+    "word": "Art",
+    "hint": "The expression or application of human creative skill and imagination.",
+    "iconName": "palette",
+    "category": "Abstract & Misc"
+  },
+  {
+    "word": "Health",
+    "hint": "The state of being free from illness or injury.",
+    "iconName": "health_and_safety",
+    "category": "Abstract & Misc"
+  },
+  {
+    "word": "Number",
+    "hint": "An arithmetical value, expressed by a word, symbol, or figure, representing a particular quantity.",
+    "iconName": "pin",
+    "category": "Abstract & Misc"
+  },
+  {
+    "word": "Word",
+    "hint": "A single distinct meaningful element of speech or writing.",
+    "iconName": "abc",
+    "category": "Abstract & Misc"
+  },
+  {
+    "word": "Dream",
+    "hint": "A series of thoughts, images, and sensations occurring in a person's mind during sleep.",
+    "iconName": "bedtime",
+    "category": "Abstract & Misc"
+  }
 ]
