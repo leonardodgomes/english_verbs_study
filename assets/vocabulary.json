@@ -342,12 +342,6 @@
     "category": "Food & Drinks"
   },
   {
-    "word": "Tomato",
-    "hint": "A glossy red fruit eaten as a vegetable, raw or cooked.",
-    "iconName": "nutrition",
-    "category": "Food & Drinks"
-  },
-  {
     "word": "Potato",
     "hint": "A starchy plant tuber which is one of the most important staple foods.",
     "iconName": "nutrition",
@@ -786,12 +780,6 @@
     "category": "Home & Furniture"
   },
   {
-    "word": "Door",
-    "hint": "A hinged, sliding, or revolving barrier at the entrance to a room or building.",
-    "iconName": "door_front",
-    "category": "Home & Furniture"
-  },
-  {
     "word": "Window",
     "hint": "An opening in a wall or door, fitted with glass to admit light or air.",
     "iconName": "window",
@@ -963,12 +951,6 @@
     "word": "Jacket",
     "hint": "A short coat, in particular one that is lightweight or formal.",
     "iconName": "checkroom",
-    "category": "Clothing & Fashion"
-  },
-  {
-    "word": "Glasses",
-    "hint": "A pair of lenses set in a frame resting on the nose and ears, used to correct vision.",
-    "iconName": "eyeglasses",
     "category": "Clothing & Fashion"
   },
   {
@@ -1383,12 +1365,6 @@
     "word": "Idea",
     "hint": "A thought or suggestion as to a possible course of action.",
     "iconName": "lightbulb",
-    "category": "Abstract & Misc"
-  },
-  {
-    "word": "Peace",
-    "hint": "Freedom from disturbance; tranquility.",
-    "iconName": "peacemaker",
     "category": "Abstract & Misc"
   },
   {
