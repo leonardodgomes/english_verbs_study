@@ -131,4 +131,39 @@ class DynamicQuizNotifier extends ValueNotifier<DynamicQuizState> {
       failedVerbsCount: updatedFailedCount,
     );
   }
+
+
+  // Locate and replace this exact function inside your lib/state/quiz_notifier.dart:
+  void loadWeakSpotsMode() {
+    // Fixed: Pulls directly from the internal _verbs dataset safely
+    final weakVerbs = _verbs.where((v) => (value.failedVerbsCount[v.infinitive] ?? 0) > 0).toList();
+
+    // If no historical errors exist yet, gracefully fall back to the full deck
+    final targetPool = weakVerbs.isNotEmpty ? weakVerbs : _verbs;
+    final nextVerb = _pickVerbByWeight(targetPool);
+
+    value = DynamicQuizState(
+      score: value.score,
+      streak: value.streak,
+      highestStreak: value.highestStreak,
+      isDarkMode: value.isDarkMode,
+      currentQuestion: DynamicQuestion.generate(nextVerb, _verbs),
+      history: value.history,
+      failedVerbsCount: value.failedVerbsCount,
+      revealCorrection: null,
+    );
+  }
+
+  void clearMetricsLocally() {
+    value = DynamicQuizState(
+      score: value.score,
+      streak: value.streak,
+      highestStreak: value.highestStreak,
+      isDarkMode: value.isDarkMode,
+      currentQuestion: value.currentQuestion,
+      history: const [], // Limpa o histórico visual na hora
+      failedVerbsCount: const {}, // Limpa o mapa de erros na memória
+    );
+  }
+
 }

@@ -139,15 +139,22 @@ class _QuizScreenState extends State<QuizScreen> {
                       child: ListTile(
                         leading: Icon(
                           entry.isCorrect ? Icons.check_circle : Icons.cancel,
-                          color: entry.isCorrect ? Colors.green : Colors.red,
+                          color: entry.isCorrect ? Colors.green.shade700 : Colors.red.shade700,
                         ),
-                        title: Text('${entry.verbInfinitive} (${entry.userAnswer})'),
+                        // CORREÇÃO DE LEGIBILIDADE: Força o texto do título a ter uma cor escura legível sobre o fundo claro do card
+                        title: Text(
+                          '${entry.verbInfinitive} (${entry.userAnswer})',
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: entry.isCorrect ? Colors.green.shade900 : Colors.red.shade900,
+                          ),
+                        ),
                         subtitle: Text(
                           entry.isCorrect 
                               ? 'Correct!' 
                               : 'Incorrect. Answer was: ${entry.correctAnswer}',
                           style: TextStyle(
-                            color: entry.isCorrect ? Colors.green.shade900 : Colors.red.shade900,
+                            color: entry.isCorrect ? Colors.green.shade800 : Colors.red.shade800,
                           ),
                         ),
                       ),

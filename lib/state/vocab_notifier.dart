@@ -98,4 +98,34 @@ class VocabQuizNotifier extends ValueNotifier<VocabQuizState> {
       failedWordsCount: updatedFailedCount,
     );
   }
+
+  void loadWeakSpotsMode() {
+    final weakItems = _vocabList.where((item) => (value.failedWordsCount[item.word] ?? 0) > 0).toList();
+
+    if (weakItems.isNotEmpty) {
+      // Escolhe um item aleatório apenas do pool de erros
+      final nextItem = weakItems[Random().nextInt(weakItems.length)];
+      
+      value = VocabQuizState(
+        score: value.score,
+        highestScore: value.highestScore,
+        currentItem: nextItem,
+        failedWordsCount: value.failedWordsCount,
+        revealCorrection: null,
+      );
+    }
+  }
+
+
+  void clearMetricsLocally() {
+    value = VocabQuizState(
+      score: value.score,
+      highestScore: value.highestScore,
+      currentItem: value.currentItem,
+      failedWordsCount: const {}, // Limpa o mapa de erros na memória
+    );
+  }
+
+
+
 }

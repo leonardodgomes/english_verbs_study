@@ -112,4 +112,19 @@ class DataEngQuizNotifier extends ValueNotifier<DataEngQuizState> {
       failedScenariosCount: updatedFailedCount,
     );
   }
+
+  void clearMetricsLocally() {
+    value = DataEngQuizState(
+      score: value.score,
+      highestScore: value.highestScore,
+      currentItem: value.currentItem,
+      currentOptions: value.currentOptions,
+      lastAnswerWasCorrect: null,
+      lastExplanation: null,
+      failedScenariosCount: const {}, // Limpa o mapa de erros na memória
+    );
+  }
+
+
+
 }
